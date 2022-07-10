@@ -1,8 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -10,107 +6,105 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+
+.bgimg {
+  /* Background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 1)), url('https://media.discordapp.net/attachments/884550121503752222/947384156403417088/Full_robot_v2_arm_up_2022-Feb-27_06-37-45AM-000_CustomizedView6366346004_jpg.jpeg');
+  /* Full-screen */
+  height: 100vh;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: 'Source Code Pro', monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 2.5vh;
 }
 
-.footer {
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .bottomleft {
+      flex-direction: column;
+      margin: 0px;
+      width: 100%;
+  }
+
+  .socials {
+      padding-left: 0px;
+      padding-top: 0px;
+      margin-top: 0px;
+  }
+
+  .bottomleft p {
+      margin-bottom: 5px;
+  }
+}
+
+.socials {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  color: white;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.socials li {
+  color: white;
+  margin-left: 20px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.socials li:first-child {
+  margin-left: 0px;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.socials li a {
+  color: rgb(202, 202, 202);
+  transition: all 400ms;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.socials li a:hover {
+  color: #fe8f00;
+  -webkit-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
+  -moz-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
+  box-shadow: 0px 0px 40px 0.25px rgba(255, 145, 0, 0.8), inset 0px 0px 40px 0.25px rgba(254, 144, 0, 0.185);
 }
 
-.title,
-.description {
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+/* Style the <hr> element */
+.main hr {
+  margin: auto;
+  width: 40%;
 }
