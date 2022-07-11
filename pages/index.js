@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React from 'react'
 import {NextSeo} from 'next-seo';
 
 export default function Home() {
-  var [time, setTime] = React.useState(<>"Its not a <span style={{ color: "#fe8f00", fontWeight: "bold" }}>bug</span>, its a <span
-    style={{ color: "#fe8f00", fontWeight: "bold" }}>feature</span>"</>)
+  var [time, setTime] = React.useState(<>&quot;Its not a <span style={{ color: "#fe8f00", fontWeight: "bold" }}>bug</span>, its a <span
+    style={{ color: "#fe8f00", fontWeight: "bold" }}>feature</span>&quot;</>)
   // Set the date we're counting down to
   var countDownDate = new Date("Sep 1, 2022 12:00:00").getTime();
 
@@ -26,8 +25,7 @@ export default function Home() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in an element with id="demo"
-    setTime(days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ");
+    setTime(<><span style={{ color: "#fe8f00", fontWeight: "bold" }}>{days}</span>d <span style={{ color: "#fe8f00", fontWeight: "bold" }}>{hours}</span>h <span style={{ color: "#fe8f00", fontWeight: "bold" }}>{minutes}</span>m <span style={{ color: "#fe8f00", fontWeight: "bold" }}>{seconds}</span>s</>);
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -43,7 +41,7 @@ export default function Home() {
         
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
           href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet" />
@@ -56,8 +54,8 @@ export default function Home() {
       canonical="https://juicerobotics.org/"
       openGraph={{
         url: 'https://juicerobotics.org',
-        title: 'Juice Robotics',
-        description: 'Juice 16236 is a FTC Team based in Folsom, CA.',
+        title: 'Juice 16236 | Website Coming Soon!',
+        description: 'Juice 16236 is a FIRST® Tech Challenge team based in Folsom, CA.',
         images: [
           {
             url: 'https://cdn.discordapp.com/attachments/949530485023977482/949530599318765578/JUICE_16236.png',
@@ -84,7 +82,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.bgimg}>
           <div className={styles.topleft}>
-            <p><span style={{ color: "#fe8f00" }}>Juice</span> <span style={{ fontWeight: "300" }}>16236</span></p>
+            <p><span style={{ color: "#fe8f00", fontWeight: "bold" }}>Juice</span> <span style={{ fontWeight: "300" }}>16236</span></p>
           </div>
           <div className={styles.middle}>
             <h1>COMING SOON</h1>
@@ -94,15 +92,17 @@ export default function Home() {
           </div>
           <div className={styles.bottomleft}>
             <p><span style={{ color: '#fe8f00', fontWeight: "bold" }}>juice</span>robotics.org</p>
-            <ul class={styles.socials}>
-              <li><a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank"><i
-                class="fa fa-youtube" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
-              <li><a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank"><i
-                class="fa fa-instagram" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
-              <li><a alt="Contact Juice" href="mailto:ftcteam16236@gmail.com" target="_blank"><i
-                class="fa fa-envelope" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
-              <li><a alt="Juice's GitHub" href="https://github.com/Juice-Robotics" target="_blank"><i
-                class="fa fa-github" style={{ fontSize: "24px" }} alt="GitHub Logo"></i></a></li>
+            <ul className={styles.socials}>
+              <li><a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank" rel="noreferrer"><i
+                className="fa fa-youtube" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
+              <li><a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank" rel="noreferrer"><i
+                className="fa fa-instagram" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
+              <li><a alt="Juice's Twitter" href="https://twitter.com/ftcteam16236?lang=en" target="_blank" rel="noreferrer"><i
+                className="fa fa-twitter" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
+              <li><a alt="Contact Juice" href="mailto:ftcteam16236@gmail.com" target="_blank" rel="noreferrer"><i
+                className="fa fa-envelope" style={{ fontSize: "24px" }} alt="LinkedIn Logo"></i></a></li>
+              <li><a alt="Juice's GitHub" href="https://github.com/Juice-Robotics" target="_blank" rel="noreferrer"><i
+                className="fa fa-github" style={{ fontSize: "24px" }} alt="GitHub Logo"></i></a></li>
             </ul>
           </div>
         </div>

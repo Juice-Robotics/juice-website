@@ -10,14 +10,16 @@
 
 .bgimg {
   /* Background image */
+  background-color: black;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 1)), url('https://media.discordapp.net/attachments/884550121503752222/947384156403417088/Full_robot_v2_arm_up_2022-Feb-27_06-37-45AM-000_CustomizedView6366346004_jpg.jpeg');
+          rgba(0, 0, 0, 1)), url('/assets/ff-robot-black.png');
   /* Full-screen */
   height: 100vh;
   /* Center the background image */
   background-position: center;
   /* Scale and zoom in the image */
   background-size: cover;
+  background-repeat: no-repeat;
   /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
   position: relative;
   /* Add a white text color to all elements inside the .bgimg container */
