@@ -54,7 +54,6 @@
   .bottomleft {
       flex-direction: column;
       margin: 0px;
-      width: 100%;
   }
 
   .socials {
