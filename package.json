@@ -4,15 +4,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "deploy": "next build && next export && type nul > out/.nojekyll && echo juicerobotics.org > out/CNAME && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "12.1.6",
+    "next-optimized-images": "^2.6.2",
     "next-seo": "^5.4.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",

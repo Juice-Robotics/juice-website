@@ -1,0 +1,241 @@
+.footer{
+	position: static;
+	bottom: 0;
+}
+
+
+.footerDistributed{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px Poppins;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.dark {
+    background-color: #2c292f;
+}
+
+.light {
+    background-color: #cccccc;
+}
+
+.footerDistributed .footerLeft,
+.footerDistributed .footerCenter,
+.footerDistributed .footerRight{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footerDistributed .footerLeft{
+	width: 30%;
+}
+
+.footerDistributed h3{
+	font: normal 26px 'Source Code Pro', cursive;
+	margin: 0;
+    margin-top: 15px;
+}
+
+.dark h3 {
+    color:  #ffffff;
+}
+
+.light h3 {
+    color: black;
+}
+
+/* The company logo */
+
+.footerDistributed .footerLeft img{
+	width: 30%;
+}
+
+.footerDistributed h3 span{
+	color:  #fe8f00;
+}
+
+/* Footer links */
+
+.footerDistributed .footerLinks{
+	margin: 20px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.dark .footerLinks {
+    color:  #ffffff;
+}
+
+.light .footerLinks {
+    color:  #000000;
+}
+
+.footerDistributed .footerLinks a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footerDistributed .footerCompanyName{
+	color:  #777a7e;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footerDistributed .footerCenter{
+	width: 35%;
+}
+
+
+.footerDistributed .footerCenter .i{
+	font-size: 20px;
+	width: 25px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.dark .footerCenter .i {
+	color: #ffffff;
+}
+
+.light .footerCenter .i {
+	color: #000000;
+}
+
+.footerDistributed .footerCenter .i.fa-envelope{
+	font-size: 15px;
+	line-height: 38px;
+}
+
+.footerDistributed .footerCenter p{
+	display: inline-block;
+	vertical-align: middle;
+	margin:0;
+}
+
+.dark .footerCenter p {
+    color: #ffffff;
+}
+
+.dark .footerCenter p {
+    color: #000000;
+}
+
+.footerDistributed .footerCenter p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footerDistributed .footerCenter p a{
+	color:  #fe8f00;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footerDistributed .footerRight{
+	width: 30%;
+}
+
+.footerDistributed .footerCompanyAbout{
+	line-height: 20px;
+	color:  #787e83;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footerDistributed .footerCompanyAbout span{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.dark .footerCompanyAbout span {
+    color: #ffffff
+}
+
+.light .footerCompanyAbout span {
+    color: #000000
+}
+
+.footerDistributed .footerIcons{
+	margin-top: 25px;
+}
+
+.footerDistributed .footerIcons .i {
+	display: inline-block;
+	/* width: 45px;
+	height: 45px; */
+	cursor: pointer;
+
+	font-size: 30px;
+    height: 30px;
+    transition: all 400ms;
+	text-align: center;
+	/* line-height: 35px; */
+
+	margin-right: 28px;
+	margin-bottom: 5px;
+}
+
+.footerDistributed .footerIcons a:last-child .i {
+    margin-right: 0px;
+}
+
+.dark .footerIcons .i {
+    color: rgb(202, 202, 202);
+}
+
+.light .footerIcons .i {
+    color: rgb(109, 109, 109);
+}
+
+.footerDistributed .footerIcons .i:hover {
+    color: #fe8f00;
+    -webkit-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
+    -moz-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
+    box-shadow: 0px 0px 40px 0.25px rgba(255, 145, 0, 0.8), inset 0px 0px 40px 0.25px rgba(254, 144, 0, 0.267);  
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 900px) {
+
+	.footerDistributed .footerLeft,
+	.footerDistributed .footerCenter,
+	.footerDistributed .footerRight{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+    .footerDistributed .footerLinks{
+        width: 100%;
+    }
+
+	.footerDistributed .footerCenter i{
+		margin-left: 0;
+	}
+
+}

@@ -1,111 +1,13 @@
-/* .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
-.bgimg {
-  /* Background image */
-  background-color: black;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 1)), url('/assets/ff-robot-black.png');
-  /* Full-screen */
-  height: 100vh;
-  /* Center the background image */
-  background-position: center;
-  /* Scale and zoom in the image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-  position: relative;
-  /* Add a white text color to all elements inside the .bgimg container */
-  color: white;
-  /* Add a font */
-  font-family: 'Source Code Pro', monospace;
-  /* Set the font-size to 25 pixels */
-  font-size: 2.5vh;
+.dark {
+    background-color: #0f0f0f;
+    padding-top: 8vh;
+    margin: 0;
+    color: white;
 }
 
-/* Position text in the top-left corner */
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-/* Position text in the bottom-left corner */
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
-  margin-left: 20px;
-  margin-right: 5px;
-}
-
-@media only screen and (max-device-width: 640px) {
-  .bottomleft {
-      flex-direction: column;
-      margin: 0px;
-  }
-
-  .socials {
-      padding-left: 0px;
-      padding-top: 0px;
-      margin-top: 0px;
-  }
-
-  .bottomleft p {
-      margin-bottom: 5px;
-  }
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  color: white;
-}
-
-.socials li {
-  color: white;
-  margin-left: 20px;
-}
-
-.socials li:first-child {
-  margin-left: 0px;
-}
-
-.socials li a {
-  color: rgb(202, 202, 202);
-  transition: all 400ms;
-}
-
-.socials li a:hover {
-  color: #fe8f00;
-  -webkit-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
-  -moz-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
-  box-shadow: 0px 0px 40px 0.25px rgba(255, 145, 0, 0.8), inset 0px 0px 40px 0.25px rgba(254, 144, 0, 0.185);
-}
-
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the <hr> element */
-.main hr {
-  margin: auto;
-  width: 40%;
+.light {
+    background-color: #f0f0f0;
+    padding-top: 8vh;
+    margin: 0;
+    color: black
 }
