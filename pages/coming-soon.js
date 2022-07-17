@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import React from 'react'
+import {useState} from 'react'
 import {NextSeo} from 'next-seo';
 
 export default function Home() {
-  var [time, setTime] = React.useState(<>&quot;Its not a <span style={{ color: "#fe8f00", fontWeight: "bold" }}>bug</span>, its a <span
+  var [time, setTime] = useState(<>&quot;Its not a <span style={{ color: "#fe8f00", fontWeight: "bold" }}>bug</span>, its a <span
     style={{ color: "#fe8f00", fontWeight: "bold" }}>feature</span>&quot;</>)
   // Set the date we're counting down to
   var countDownDate = new Date("Sep 1, 2022 12:00:00").getTime();

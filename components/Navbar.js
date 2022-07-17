@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from '../styles/Navbar.module.css'
 
 const NavBar = (props) => {

@@ -210,10 +210,30 @@
 
 .footerDistributed .footerIcons .i:hover {
     color: #fe8f00;
+	animation: shake 0.8s;
     -webkit-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
     -moz-box-shadow: 0px 0px 43px 0.5px rgba(255, 145, 0, 0.8);
     box-shadow: 0px 0px 40px 0.25px rgba(255, 145, 0, 0.8), inset 0px 0px 40px 0.25px rgba(254, 144, 0, 0.267);  
 }
+
+@keyframes shake{
+	0%{
+	  transform: translateX(0) rotate(0deg);
+	}
+	25%{
+	  transform: translateY(5px) rotate(15deg);
+	}
+	  
+	50%{
+	  transform: translateY(-10px) rotate(-15deg);
+	}
+	75%{
+		transform: translateY(1px) rotate(10deg);
+	  }
+	100%{
+	  transform: translateY(0px) rotate(0deg);
+	}
+  }
 
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
