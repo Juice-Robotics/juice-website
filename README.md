@@ -1,6 +1,6 @@
 # Juice Website
 
-yea we got nothing
+yea we got nothing to say
 
 
 
