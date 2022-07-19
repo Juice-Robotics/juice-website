@@ -35,7 +35,7 @@ const NavBar = (props) => {
                 <p className={styles.footerLinks}>
                     <Link href="/">Home</Link>
                     <Link href="/about">About</Link>
-                    <Link href="/team">Team</Link>
+                    <Link href="/sponsors">Sponsors</Link>
                     <Link href="/outreach">Outreach</Link>
                     <Link href="/contact">Contact</Link>
                 </p>

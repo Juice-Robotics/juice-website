@@ -5,9 +5,8 @@ import { NextSeo } from 'next-seo';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-export default function Home() {
-  const dark = true
-
+export default function Home(props) {
+  const dark = props.dark
   return (
     <div className={(dark ? styles.dark : styles.light)}>
       <Head>

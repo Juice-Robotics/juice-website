@@ -22,9 +22,9 @@ const NavBar = (props) => {
                 </div>
             </Link>
             <ul className={`${styles.navLinks}  ${navActivity ? styles.navActive : ""}`}>
-                <li><Link href="/home">Home</Link></li>
+                <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
-                <li><Link href="/team">Team</Link></li>
+                <li><Link href="/sponsors">Sponsors</Link></li>
                 <li><Link href="/outreach">Outreach</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
             </ul>

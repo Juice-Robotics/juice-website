@@ -1,0 +1,133 @@
+.dark {
+    background-color: #0f0f0f;
+    padding-top: 8vh;
+    margin: 0;
+    color: white;
+}
+
+.light {
+    background-color: #f0f0f0;
+    padding-top: 8vh;
+    margin: 0;
+    color: black
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main section h1 {
+    font-size: 3em;
+}
+
+.main section h1 span {
+    color: #FF9626;
+}
+
+.aboutTeam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutRow {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 0px;
+    justify-content: space-between;
+    width: 70vw;
+    align-self: center;
+}
+
+.aboutRow div {
+    margin: 20px;
+}
+
+.aboutRow h2 {
+    margin-top: 0;
+}
+
+.aboutRow .picColumn picture img {
+    width: 30vw;
+    border-radius: 5%;
+}
+
+.aboutRow .sponsors img {
+    height: 70px;
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: all 500ms
+        /* -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5);  */
+}
+
+.aboutRow .sponsors img:hover {
+    filter: grayscale(0%);
+    height: 72.5px;
+}
+
+@media screen and (max-width:668px) {
+    .aboutRow {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        width: 95vw;
+    }
+
+    .aboutRow .picColumn picture img {
+        width: 90vw;
+        margin: 0;
+    }
+
+    .aboutRow .sponsors {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.aboutFTCGame {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.aboutFTCGame .titleGameBanner {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.aboutFTCGame .titleGameBanner .bgImg {
+    background-color: blue;
+    background-image: url("https://www.firstinspires.org/sites/default/files/first-energize/energize-season-banner-gs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: brightness(0.1);
+    -moz-filter: brightness(0.1);
+    -o-filter: brightness(0.1);
+    -ms-filter: brightness(0.1);
+    filter: brightness(0.1);
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 0;
+}
+
+.aboutFTCGame .titleGameBanner h1 {
+    z-index: 1;
+}
+
+.aboutFTCGame p {
+    margin: 40px;
+    width: 70vw;
+    align-self: center;
+}
