@@ -47,7 +47,7 @@ export default function Home(props) {
         }]}
       />
 
-      <NavBar dark={dark} />
+      <NavBar dark={dark} page="home" />
       <main className={styles.main}>
         <section className={styles.robotStack}>
           <h1 className={styles.topText}>JUICE</h1>
@@ -77,7 +77,7 @@ export default function Home(props) {
           </div>
           <div>
             <h2>ABOUT <span style={{color: "#FF9626"}}>TEAM JUICE</span></h2>
-            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of seven high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
 
             <h3 style={{color: "#FF9626"}}>2021-22 SPONSORS</h3>
             <div className={styles.sponsors}>

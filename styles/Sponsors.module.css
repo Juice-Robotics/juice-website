@@ -32,7 +32,7 @@
 }
 
 .sponsors img {
-    height: 70px;
+    height: 85px;
     margin: 10px;
     filter: grayscale(100%);
     transition: all 500ms
@@ -42,7 +42,7 @@
 
 .sponsors img:hover {
     filter: grayscale(0%);
-    height: 72.5px;
+    height: 87.5px;
 }
 
 @media screen and (max-width:668px) {

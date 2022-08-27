@@ -12,10 +12,10 @@ export default function Sponsors(props) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <NavBar dark={dark} />
+        <NavBar dark={dark} page="sponsors" />
         <main className={styles.main}>
             <h1>We <span>Thank</span> all of our <span>Sponsors!</span></h1>
-            <p>Without them we will not be able to do what we do</p>
+            <p>We would not exist without them!</p>
 
             <h3 style={{ color: "#FF9626" }}>2021-22 SPONSORS</h3>
             <div className={styles.sponsors}>
@@ -27,7 +27,7 @@ export default function Sponsors(props) {
             </div>
 
             <h2>Want to sponsor us?</h2>
-            <p>Please email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> with your work email and we will get to you as soon as we can!</p>
+            <p>Email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> with your work email and we will get to you as soon as we can!</p>
         </main>
         <Footer dark={dark} />
     </div>

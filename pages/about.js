@@ -3,6 +3,7 @@ import styles from '../styles/About.module.css'
 import { NextSeo } from 'next-seo';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
+import MemberBlock from '../components/MemberBlock';
 
 export default function About(props) {
     const dark = props.dark
@@ -12,7 +13,7 @@ export default function About(props) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <NavBar dark={dark} />
+        <NavBar dark={dark} page="about" />
 
         <main className={styles.main}>
             <section className={styles.aboutTeam}>
@@ -30,7 +31,7 @@ export default function About(props) {
                         </picture>
                     </div>
                     <div>
-                        <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of seven high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+                        <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
 
                         <h3 style={{ color: "#FF9626" }}>2021-22 SPONSORS</h3>
                         <div className={styles.sponsors}>
@@ -39,6 +40,15 @@ export default function About(props) {
                             <a href="https://www.acec-ca.org/" target="_blank" rel="noreferrer"><img alt="ACEC California Logo" src="https://cdn.ymaws.com/acec-ca.site-ym.com/graphics/logo.png" /></a>
                             <a href="http://sacedm.com/" target="_blank" rel="noreferrer"><img alt="Sac EDM & Waterjet, Inc. Logo" src="https://image4.owler.com/logo/sac-edm---waterjet_owler_20220118_141150_original.png" /></a>
                             <a href="http://www.inductiveautomation.com/" target="_blank" rel="noreferrer"><img alt="Inductive Automation Logo" src="https://inductiveautomation.com/static/images/logos/inductive-automation-logo.png" /></a>
+                            {/* <picture>
+                                <source
+                                    srcSet={require("../public/assets/Silent Bot Deadly.png?webp")}
+                                    type="image/webp"
+                                    // width="181"
+                                    alt="Team Juice (2022)"
+                                />
+                                <img src={"/assets/Silent Bot Deadly.png"} alt="Juice 16236 Logo"></img>
+                            </picture> */}
                         </div>
                     </div>
                 </div>
@@ -50,11 +60,16 @@ export default function About(props) {
                     <div className={styles.bgImg}></div>
                     <h1>About <span>FTC</span> and the <span>Game</span></h1>
                 </div>
-                <p>FIRST Tech Challenge (FTC)  is a robotics competition for students in grades 7–12 to compete head to head, by designing, building, and programming a robot to compete in an alliance format against other teams. Last year, over 679,000 students from 110 countries competed in FTC. Teams design, program, and build a robot to compete in a field game while also promoting STEM within their community. They gain valuable experience using industry-standard tools such as Android Studio and Autodesk Inventor, which they can later apply in the engineering workforce.<br/><br/> From the machines that move us to the food that sustains us to the wireless technologies that connect us, energy plays an essential role in keeping our world running. During our 2022-2023 robotics season, FIRST® ENERGIZE℠ presented by Qualcomm, FIRST teams across our programs will reimagine the future of sustainable energy and power their ideas forward.</p>
+                <p>FIRST Tech Challenge (FTC)  is a robotics competition for students in grades 7–12 to compete head to head, by designing, building, and programming a robot to compete in an alliance format against other teams. Last year, over 679,000 students from 110 countries competed in FTC. Teams design, program, and build a robot to compete in a field game while also promoting STEM within their community. They gain valuable experience using industry-standard tools such as Android Studio and Autodesk Inventor, which they can later apply in the engineering workforce.<br /><br /> From the machines that move us to the food that sustains us to the wireless technologies that connect us, energy plays an essential role in keeping our world running. During our 2022-2023 robotics season, FIRST® ENERGIZE℠ presented by Qualcomm, FIRST teams across our programs will reimagine the future of sustainable energy and power their ideas forward.</p>
             </section>
 
             <section>
                 <h1>Meet the <span>Team</span></h1>
+                <MemberBlock side="LEFT" name="Hunter" title="Team Captain" headshot="https://media.discordapp.net/attachments/964939396476461067/964956870794158120/2021-12-27_12.33.32.JPG" description="Hunter is a freshmen at Folsom High. This year is his 2nd year on Team Juice and in FTC. He looks forward to applying mechanical concepts and math to design intuitive components that will tackle this year's challenge. This is also his first year of being on the software team and learning all about programming in FTC. Outside of robotics, he likes to play tennis and learn about rockets."/>
+                <MemberBlock side="RIGHT" name="Spandhana" title="Team Vice Captain" headshot="https://cdn.discordapp.com/attachments/936884167411646495/1012933234214043658/70e8daed-b513-4879-953e-a56b1770a189.JPG" description="Hi, my name is Spandhana I am the vice-captain of Juice meaning I help CAD, design, and manage the team. I attend Folsom High School as a sophomore and am a cross country runner. I work at my local animal shelter and rewatch Schitt's Creek in my free time. #INeedMoreJoos"/>
+                <MemberBlock side="LEFT" name="Siddharth" title="Lead Software Developer" headshot="https://cdn.discordapp.com/attachments/1002301045814329404/1012939938142105610/20220404_1639343.jpg" description="Siddharth Ray is the Software Lead Developer on Juice and this is his second year being on Juice. He helps manage and develop the software that runs on our robot, as well as coding outreach projects and help manage financials. He attends Vista del Lago High School as a freshman. Outside of Team Juice, Siddharth Ray is the founder and CEO of DJFlame and is a film-maker." headshotOptions={{}}/>
+                <MemberBlock side="RIGHT" name="Anya" title="Hardware Member" headshot="https://cdn.discordapp.com/attachments/919388499814269020/1006063133867130950/IMG_4314.jpg" description="Anya is part of the hardware team on Team Juice. Currently, she is a freshman attending Vista del Lago High School. In her free time, she enjoys singing, reading, and cooking."/>
+                <MemberBlock side="LEFT" name="Ahana" title="Software Member" headshot="https://cdn.discordapp.com/attachments/919388010783584267/1006383133727391783/IMG_7129.jpg" description="Ahana Raghavan is in 9th grade at Vista Del Lago High School.  Ahana is a member of the software team on Team Juice and she wants to take up coding (as it piques her interest). Reading about the future of genomics and neuroscience and writing about it is one of her favorite things to do. Ahana finds joy in learning about and contributing to her culture by interning at an entrepreneurial venture aimed at keeping traditional roots alive. She creates podcasts to help people of all ages explore their traditions and values. Participating in debate tournaments is one of her deepest passions and it lets her channel her passion for research."/>
             </section>
 
         </main>

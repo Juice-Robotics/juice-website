@@ -22,6 +22,7 @@
     backdrop-filter: blur(5px);
 }
 
+
 .dark .logo img {
     height: 4vh;
 }
@@ -44,7 +45,16 @@
     text-decoration: none;
     /* letter-spacing: 3px; */
     /* font-weight: bold; */
-    font-size: 14px;
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+.navLinks a:hover {
+    color: #ABABAB
+}
+
+.active a {
+    color: #ABABAB
 }
 
 .burger {
@@ -54,6 +64,7 @@
 .burger div {
     width: 25px;
     height: 3px;
+    border-radius: 5px;
     margin: 5px;
     transition: all 0.3s ease
 }
@@ -64,6 +75,10 @@
 
 .light .burger div {
     background-color: #202020;
+}
+
+.toggle div {
+    background-color: #FF9626 !important;
 }
 
 @media screen and (max-width:1024px) {
@@ -89,18 +104,22 @@
     }
 
     .dark .navLinks {
-        background-color: #0f0f0fc4;
+        background-color: #0f0f0fdc;
         backdrop-filter: blur(20px);
     }
 
     .light .navLinks {
-        background-color: #e2e2e2c4;
+        background-color: #e2e2e2dc;
         backdrop-filter: blur(20px);
     }
 
     .navLinks li {
         opacity: 0;
         transition: all 500ms ease;
+    }
+
+    .navLinks li a {
+        font-size: 6vw;
     }
 
     .dark .navLinks li a {
