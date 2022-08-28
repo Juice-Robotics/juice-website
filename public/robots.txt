@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://juicerobotics.org
+
+# Sitemaps
+Sitemap: https://juicerobotics.org/sitemap.xml
