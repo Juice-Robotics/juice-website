@@ -2,7 +2,7 @@ const withOptimizedImages = require('next-optimized-images')
 
 module.exports = withOptimizedImages({
   reactStrictMode: true,
-  assetPrefix: './',
+  // assetPrefix: '/',
   images: {
     disableStaticImages: true
 }

@@ -63,3 +63,24 @@
 .main a:hover {
     color: #9c9c9c;
 }
+
+.main button {
+    width: max-content;
+    align-self: center;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #0f0f0f00;
+    color: #FF9626;
+    border-color: #FF9626;
+    border-style: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 500ms;
+}
+
+.main button:hover {
+    background-color: #FF9626;
+    color: white;
+}
