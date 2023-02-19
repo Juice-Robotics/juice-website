@@ -14,3 +14,11 @@
     font-size: 24px;
     margin-top: 0px;
 }
+
+@media screen and (max-width:668px) {
+    .card {
+        padding: 5px;
+        margin: 0px;
+        width: 80vw;
+    }
+}

@@ -108,7 +108,16 @@
 .info ul li {
     width: max-content;
     font-size: 35px;
+    list-style-image: url(/favicon.ico);
+    list-style-position: inside;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    align-content: center;
     /* text-align: right; */
+}
+
+.info ul li span {
+    color: #FF9626;
 }
 
 .financials {
@@ -196,8 +205,43 @@
 
   .contact h2 {
     font-size: 58px;
+    color: #FF9626;
   }
 
   .contact p {
     font-size: 25px;
   }
+
+  .error {
+    border-color: #ff5740;
+    border-style: dashed;
+    background-color: #ff574070;
+    display: none;
+    opacity: 0;
+    transition: all 500ms;
+    padding: 5px;
+  }
+
+  @media screen and (max-width:668px) {
+    .main h1 {
+        font-size: 30vw;
+    }
+
+    .statsSectionStats {
+        flex-direction: column;
+    }
+
+    .sponsors {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info ul li {
+        margin-left: 0px;
+        list-style: none;
+        margin-bottom: 30px;
+        max-width: 80vw;
+        text-align: left;
+    }
+}
