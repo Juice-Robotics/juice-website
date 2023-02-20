@@ -1,8 +1,11 @@
 .card {
     padding: 20px;
     margin: 20px;
+    margin-top: 0px;
+    padding-top: 0;
     width: max-content;
     color: black;
+    min-width: 10vw;
 }
 
 .card h3 {

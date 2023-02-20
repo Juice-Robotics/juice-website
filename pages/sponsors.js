@@ -30,7 +30,7 @@ export default function Sponsors(props) {
 
             <h2>Want to sponsor us?</h2>
             <p>Email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> with your work email and we will get to you as soon as we can!</p>
-            <a href="./sponsors/brief"><button>View our Sponsors Brief</button></a>
+            {/* <a href="./sponsors/brief"><button>View our Sponsors Brief</button></a> */}
         </main>
         <Footer dark={dark} />
     </div>

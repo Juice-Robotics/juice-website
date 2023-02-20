@@ -31,10 +31,11 @@ export default function SponsorsBrief(props) {
             <section className={styles.statsSection}>
                 <h2>Why Juice?</h2>
                 <div className={styles.statsSectionStats}>
-                    <StatsCard hook="10+" description="awards won" />
-                    <StatsCard hook="$5,000+" description="fundraised" citation="1" />
-                    <StatsCard hook="800+ people impacted" description="through the Juice Outreach Program" citation="2" />
-                    <StatsCard hook="Ranked #21" description="in the world" citation="3" />
+                    <StatsCard number={10} prefix="" suffix="+" description="awards won" />
+                    <StatsCard number={5000} prefix="$" suffix="+" description="fundraised" citation="1" />
+                    <StatsCard number={800} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="2" />
+                    <StatsCard number={10} prefix="" suffix="+ countries impacted" description="through the Juice Outreach Program" citation="2" />
+                    <StatsCard number={21} prefix="Rank #" suffix="" description="in the world" citation="3" />
                 </div>
                 <small><sup>1</sup> 2022-23 Public Juice Financials  </small>
                 <small>  <sup>2</sup> Internal Data Estimates</small>
