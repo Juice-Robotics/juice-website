@@ -1,21 +1,32 @@
 import Head from 'next/head'
-import styles from '../styles/Sponsors.module.css'
+import styles from '../styles/Redemption.module.css'
 import { NextSeo } from 'next-seo';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-export default function Sponsors(props) {
+export default function Redemption(props) {
     const dark = props.dark
     return <div className={(dark ? styles.dark : styles.light)}>
-        <NextSeo title="Sponsors | Juice 16236" />
+        <NextSeo title="REDEMPTION v3 | Juice 16236" />
         <Head>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <NavBar dark={dark} page="sponsors" />
         <main className={styles.main}>
-            <h1>We <span>Thank</span> all of our <span>Sponsors!</span></h1>
-            <p>We would not exist without them!</p>
+        <section className={styles.robotStack}>
+          <h1 className={styles.topText}>Introducing</h1>
+          <picture>
+            <source
+              srcSet={require("../public/assets/robot-trans.png?webp")}
+              type="image/webp"
+              // width="181"
+              alt=""
+            />
+            <img src={"/assets/robot-trans.png"} alt="Juice 16236 Logo"></img>
+          </picture>
+          <h1 className={styles.bottomText}>REDEMPTION</h1>
+        </section>
 
             <h3 style={{ color: "#FF9626" }}>2022-23 SPONSORS</h3>
             <div className={styles.sponsors}>
@@ -28,9 +39,9 @@ export default function Sponsors(props) {
               <a href="https://cncmadness.com/" target="_blank" rel="noreferrer"><img alt="CNC Madness Logo" src="/assets/cnc-madness.png"/></a>
             </div>
 
-            <h2 style={{color: "#FF9626", fontSize: "40px"}}>Want to sponsor us?</h2>
+            <h2>Want to sponsor us?</h2>
             <p>Email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> with your work email and we will get to you as soon as we can!</p>
-            <a href="./sponsors/brief"><button>View our Sponsors Brief</button></a>
+            {/* <a href="./sponsors/brief"><button>View our Sponsors Brief</button></a> */}
         </main>
         <Footer dark={dark} />
     </div>

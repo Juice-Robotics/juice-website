@@ -17,7 +17,7 @@ export default function Home(props) {
       </Head>
 
       <NextSeo
-        title="Juice 16236"
+        title="Team Juice 16236 - Home"
         description="Juice 16236 is a FTC Team based in Folsom, CA."
         canonical="https://juicerobotics.org/"
         openGraph={{
@@ -77,7 +77,7 @@ export default function Home(props) {
           </div>
           <div>
             <h2>ABOUT <span style={{color: "#FF9626"}}>TEAM JUICE</span></h2>
-            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of six high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
 
             <h3 style={{color: "#FF9626"}}>2022-23 SPONSORS</h3>
             <div className={styles.sponsors}>

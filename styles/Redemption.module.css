@@ -1,0 +1,77 @@
+.dark {
+    background-color: #080808;
+    padding-top: 8vh;
+    margin: 0;
+    color: white;
+}
+
+.light {
+    background-color: #f0f0f0;
+    padding-top: 8vh;
+    margin: 0;
+    color: black
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.robotStack {
+    display: flex;
+    position: relative;
+    /* background-color:antiquewhite; */
+    width: 69vw;
+    align-self: center;
+    margin-top: 15vh;
+}
+
+.robotStack h1 {
+    font-size: 144px;
+    color: #FF9626;
+    line-height: 0;
+}
+
+.robotStack h1:last-of-type {
+    z-index: 3;
+    font-weight: bold;
+}
+
+.robotStack picture {
+    position: relative;
+    z-index: 2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    left: 12vw;
+}
+
+@media screen and (max-width:668px) {
+    .robotStack {
+        width: 120vw;
+        height: 75vh;
+    }
+    
+    .robotStack picture {
+        left: 0;
+    }
+
+    .robotStack picture img {
+        width: 110%;
+    }
+}
+
+.robotStack .topText {
+    position: absolute;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.robotStack .bottomText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 200;
+}

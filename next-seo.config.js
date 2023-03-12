@@ -1,6 +1,6 @@
 export default {
     title: "Juice 16236",
-    description: "Juice 16236 is a FTC Team based in Folsom, CA.",
+    description: "Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of six high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.",
     canonical: "https://juicerobotics.org/",
     openGraph: {
         url: 'https://juicerobotics.org',

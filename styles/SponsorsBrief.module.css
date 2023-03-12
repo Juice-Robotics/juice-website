@@ -31,6 +31,34 @@
     margin-bottom: 5vh;
 }
 
+.sponsors .white img {
+    height: 85px;
+    margin: 10px;
+    filter:  brightness(0) invert(1);
+    transition: all 500ms
+        /* -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5);  */
+}
+
+.sponsors .white img:hover {
+    filter:  brightness(1) invert(0);
+    height: 87.5px;
+}
+
+.sponsors .halfwhite img {
+    height: 85px;
+    margin: 10px;
+    filter: grayscale(100%) brightness(0.25) invert(1);
+    transition: all 500ms
+        /* -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5);  */
+}
+
+.sponsors .halfwhite img:hover {
+    filter: grayscale(0%) brightness(1) invert(0);
+    height: 87.5px;
+}
+
 .sponsors img {
     height: 85px;
     margin: 10px;
@@ -122,8 +150,23 @@
     color: #FF9626;
 }
 
+.info p {
+    font-size: 20px;
+    width: 70vw;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.info h3 {
+    color: #FF9626;
+    width: 70vw;
+    text-align: left;
+    margin-left: 75px;
+    margin-bottom: 0;
+}
+
 .financials {
-    background-color: #202020;
+    background-color: #111111;
     padding: 40px;
 }
 
@@ -184,7 +227,7 @@
     border-bottom-left-radius: 2px;
     border-width: 15px;
     border-style: solid;
-    border-color: #202020 #202020 rgba(255,255,255,.35) rgba(255,255,255,.35);
+    border-color: #111111 #111111 rgba(255,255,255,.35) rgba(255,255,255,.35);
   }
   .financials .downloads .document::after {
     display: block;
@@ -230,6 +273,7 @@
     }
 
     .statsSectionStats {
+        margin-top: 0;
         flex-direction: column;
     }
 
@@ -245,5 +289,14 @@
         margin-bottom: 30px;
         max-width: 80vw;
         text-align: left;
+    }
+
+    .statsSection {
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .statsSection h2 {
+        margin: 30px;
     }
 }

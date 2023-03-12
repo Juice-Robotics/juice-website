@@ -30,7 +30,7 @@ const NavBar = (props) => {
                     />
                     <img src={"/assets/" + (dark ? "dark" : "light") + "/logo.png"} alt="Juice 16236 Logo"></img>
                 </picture>
-                <h3><span>juice</span>robotics<span>.org</span></h3>
+                {/* <h3><span>juice</span>robotics<span>.org</span></h3> */}
 
                 <p className={styles.footerLinks}>
                     <Link href="/">Home</Link>
@@ -56,7 +56,7 @@ const NavBar = (props) => {
             <div className={styles.footerRight}>
                 <p className={styles.footerCompanyAbout}>
                     <span>About Team Juice 16236</span>
-                    Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a  501(c)(3) Non-Profit.</p>
+                    Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of six high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a  501(c)(3) Non-Profit.</p>
                 <div className={styles.footerIcons}>
                     <a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} className={styles.i}/></a>
                     <a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.i}/></a>

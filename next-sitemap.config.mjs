@@ -3,6 +3,6 @@ export default {
     siteUrl: "https://juicerobotics.org",
     generateRobotsTxt: true,
     generateIndexSitemap: false,
-    exclude: ['/outreach'],
+    exclude: ['/outreach', '/redemption'],
     priority: 1,
 }
