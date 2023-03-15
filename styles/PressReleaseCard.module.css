@@ -1,0 +1,67 @@
+.card {
+    background-color: #131313;
+    border-radius: 25px;
+    /* border-color: rgb(133, 133, 133);
+    border-width: 1px;
+    border-style: solid; */
+    transition: all 500ms;
+    box-shadow: 10px 10px 40px black;
+    width: 650px;
+    max-width: 90vw;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #161616;
+    box-shadow: 40px 20px 40px black;;
+}
+
+.card img {
+    width: 650px;
+    max-width: 90vw;
+    max-height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    filter: brightness(0.5);
+    transition: all 500ms;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card:hover img {
+    filter: brightness(1);
+}
+
+.card img:hover {
+    transform: scale(1.25);
+}
+
+.imgWrapper img {
+    transition: all 1s ease;
+    vertical-align: middle;
+}
+
+.imgWrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+    width: 650px;
+    max-width: 90vw;
+    max-height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.card h2 {
+    font-size: medium;
+}
+
+.bodyContent {
+    padding: 20px;
+}

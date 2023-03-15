@@ -31,6 +31,11 @@ export default function Sponsors(props) {
             <h2 style={{color: "#FF9626", fontSize: "40px"}}>Want to sponsor us?</h2>
             <p>Email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> with your work email and we will get to you as soon as we can!</p>
             <a href="./sponsors/brief"><button>View our Sponsors Brief</button></a>
+
+            <br/>
+            <br/>
+            <h2 style={{marginBottom: 0}}>Not an organization/company?</h2>
+            <p>You can still support us by donating to our <a href="https://gofund.me/c9d087b6">GoFundMe</a>!</p>
         </main>
         <Footer dark={dark} />
     </div>

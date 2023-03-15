@@ -299,4 +299,47 @@
     .statsSection h2 {
         margin: 30px;
     }
+
+    .album img {
+        width: 100vw !important;
+    }
+}
+
+.pressReleases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pressReleases h1 {
+    font-size: 30px;
+}
+
+.pressReleases h2 {
+    font-size: 20px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.album h2 {
+    font-size: 58px;
+}
+
+.album h2 span {
+    color: #FF9626;
+}
+
+.album img {
+    width: 20vw;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+.album .carousel {
+    justify-content: center;
 }
