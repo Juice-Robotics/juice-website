@@ -17,3 +17,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Revival Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/Revival-Gothic.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/Revival-Gothic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("/assets/fonts/Revival-Gothic.woff") format("woff"), /* Modern Browsers */
+         url("/assets/fonts/Revival-Gothic.ttf")  format("truetype"), /* Safari, Android, iOS */
+}

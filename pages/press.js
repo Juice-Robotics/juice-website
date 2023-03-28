@@ -87,7 +87,7 @@ export default function SponsorsBrief(props) {
 
             <section className={styles.album}>
                 <h2>The Juice <span>Album</span></h2>
-                <Carousel slidesToShow={slidesNumber} wrapAround="true" className='carousel'>
+                <Carousel slidesToShow={slidesNumber} wrapAround="true" className='carousel' enableKeyboardControls="true" cellAlign='center'>
                     <img src="\assets\team\team pic.jpg" />
                     <img src="\assets\robot.jpg" />
                     <img src="\assets\IMG_9287.jpg" />
