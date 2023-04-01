@@ -3,6 +3,7 @@ import styles from '../styles/Sponsors.module.css'
 import { NextSeo } from 'next-seo';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
+import sponsors from '../data/sponsors.json'
 
 export default function Sponsors(props) {
     const dark = props.dark
@@ -18,7 +19,7 @@ export default function Sponsors(props) {
             <p>We would not exist without them!</p>
 
             <h3 style={{ color: "#FF9626" }}>2022-23 SPONSORS</h3>
-            <div className={styles.sponsors}>
+            {/* <div className={styles.sponsors}>
             <a href="https://www.micron.com/" target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066"/></a>
               <a href="https://www.1517fund.com/" target="_blank" rel="noreferrer"><img alt="1517 Logo" src="https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png"/></a>
               <a href="https://www.acec-ca.org/" target="_blank" rel="noreferrer"><img alt="ACEC California Logo" src="https://cdn.ymaws.com/acec-ca.site-ym.com/graphics/logo.png"/></a>
@@ -26,6 +27,11 @@ export default function Sponsors(props) {
               <a href="http://www.inductiveautomation.com/" target="_blank" rel="noreferrer"><img alt="Inductive Automation Logo" src="https://inductiveautomation.com/static/images/logos/inductive-automation-logo.png"/></a>
               <a href="http://www.powdercraftofrocklin.com/" target="_blank" rel="noreferrer"><img alt="Powdercraft of Rocklin Logo" src="/assets/powder-craft-logo.png"/></a>
               <a href="https://cncmadness.com/" target="_blank" rel="noreferrer"><img alt="CNC Madness Logo" src="/assets/cnc-madness.png"/></a>
+            </div> */}
+            <div className={styles.sponsors}>
+              {sponsors.map(sponsor => (
+                <a href={sponsor.website} target="_blank" rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} /></a>
+              ))}
             </div>
 
             <h2 style={{color: "#FF9626", fontSize: "40px"}}>Want to sponsor us?</h2>
@@ -34,7 +40,7 @@ export default function Sponsors(props) {
 
             <br/>
             <br/>
-            <h2 style={{marginBottom: 0}}>Not an organization/company?</h2>
+            <h2 style={{marginBottom: 0}}>Not an organization or company?</h2>
             <p>You can still support us by donating to our <a href="https://gofund.me/c9d087b6">GoFundMe</a>!</p>
         </main>
         <Footer dark={dark} />

@@ -92,6 +92,7 @@
 .aboutSection .picColumn picture img {
     width: 25vw;
     border-radius: 5%;
+    margin-bottom: 20px;
 }
 
 .aboutSection .sponsors img {

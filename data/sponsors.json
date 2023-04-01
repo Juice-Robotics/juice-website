@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Sac EDM & Waterjet, Inc.",
+        "logo": "https://image4.owler.com/logo/sac-edm---waterjet_owler_20220118_141150_original.png",
+        "website": "http://sacedm.com/",
+        "logoStyle": "halfwhite"
+    },
+    {
+        "name": "Micron",
+        "logo": "https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066",
+        "website": "https://www.micron.com/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "Aerojet Rocketdyne",
+        "logo": "https://aerojetrocketdyne.com/sites/default/files/AR%20Logo_RGB.png",
+        "website": "https://aerojetrocketdyne.com/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "1517 Fund",
+        "logo": "https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png",
+        "website": "https://www.1517fund.com/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "American Council of Engineering Companies Sierra Chapter",
+        "logo": "https://cdn.ymaws.com/acec-ca.site-ym.com/graphics/logo.png",
+        "website": "https://www.acec-ca.org/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "Inductive Automation",
+        "logo": "https://inductiveautomation.com/static/images/logos/inductive-automation-logo.png",
+        "website": "http://www.inductiveautomation.com/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "Powdercraft Rocklin",
+        "logo": "/assets/powder-craft-logo.png",
+        "website": "http://www.powdercraftofrocklin.com/",
+        "logoStyle": "hal"
+    },
+    {
+        "name": "CNC Madness",
+        "logo": "/assets/cnc-madness.png",
+        "website": "https://cncmadness.com/",
+        "logoStyle": "white"
+    },
+    {
+        "name": "The Plastics Guy",
+        "logo": "https://img1.wsimg.com/isteam/ip/1c0c8dc3-432c-4611-99c1-fdbe35b21c75/logo/b3680012-6d2b-4992-af95-9a916e9122fc.png",
+        "website": "https://theplasticsguy.com/services",
+        "logoStyle": "white"
+    },
+    {
+        "name": "Misumi",
+        "logo": "/assets/misumi.png",
+        "website": "https://us.misumi-ec.com/",
+        "logoStyle": "halfwhite"
+    },
+    {
+        "name": "goBilda",
+        "logo": "https://cdn11.bigcommerce.com/s-eem7ijc77k/stencil/af49f910-ade4-013a-b026-32a478cd4269/e/940880a0-6c0d-0136-7313-41f31bb2e297/img/goBILDA.svg",
+        "website": "https://www.gobilda.com/",
+        "logoStyle": "white"
+    }
+]

@@ -63,12 +63,14 @@
 .footerDistributed .footerLinks{
 	margin: 20px 0 12px;
     display: flex;
+	flex-wrap: wrap;
+	align-content: center;
     justify-content: space-between;
     width: 70%;
 }
 
 .dark .footerLinks {
-    color:  #ffffff;
+    color:  #c9c9c9;
 }
 
 .light .footerLinks {
@@ -77,9 +79,16 @@
 
 .footerDistributed .footerLinks a{
 	display:inline-block;
+	margin-right: 10px;
+	text-align: center;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+	transition: ease 500ms;
+}
+
+.footerDistributed .footerLinks a:hover {
+	color: #fe8f00;
 }
 
 .footerDistributed .footerCompanyName{
@@ -205,7 +214,7 @@
 }
 
 .light .footerIcons .i {
-    color: rgb(109, 109, 109);
+    color: #6d6d6d;
 }
 
 .footerDistributed .footerIcons .i:hover {
