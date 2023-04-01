@@ -30,7 +30,7 @@ export default function Sponsors(props) {
             </div> */}
             <div className={styles.sponsors}>
               {sponsors.map(sponsor => (
-                <a href={sponsor.website} target="_blank" rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} /></a>
+                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} /></a>
               ))}
             </div>
 

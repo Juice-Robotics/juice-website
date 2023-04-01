@@ -96,7 +96,7 @@ export default function SponsorsBrief(props) {
                 </div> */}
                 <div className={styles.sponsors}>
               {sponsors.map(sponsor => (
-                <a href={sponsor.website} className={styles[sponsor.logoStyle]} target="_blank" rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo}/></a>
+                <a href={sponsor.website} className={styles[sponsor.logoStyle]} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo}/></a>
               ))}
             </div>
             </section>
