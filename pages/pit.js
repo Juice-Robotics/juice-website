@@ -28,7 +28,7 @@ export default function Pit(props) {
             <section className={styles.hero}>
                 <h1>WELCOME TO THE</h1>
                 <h1>JUICE PIT</h1>
-                <p>WORLDS '23 EDITION</p>
+                <p>WORLDS &apos;23 EDITION</p>
             </section>
 
             <section className={styles.sponsors}>
