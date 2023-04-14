@@ -39,7 +39,7 @@ export default function Pit(props) {
             </section>
 
             <section className={styles.socials}>
-                <h2>DON'T FORGET TO <span>FOLLOW US</span></h2>
+                <h2>DON&apos;T FORGET TO <span>FOLLOW US</span></h2>
                 <div className={styles.socialIcons}>
                     <a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} className={styles.i}/></a>
                     <a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.i}/></a>
