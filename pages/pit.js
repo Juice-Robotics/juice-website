@@ -39,7 +39,7 @@ export default function Pit(props) {
             </section>
 
             <section className={styles.socials}>
-                <h2>DONT FORGET TO <span>FOLLOW US</span></h2>
+                <h2>DON'T FORGET TO <span>FOLLOW US</span></h2>
                 <div className={styles.socialIcons}>
                     <a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} className={styles.i}/></a>
                     <a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.i}/></a>
@@ -48,6 +48,17 @@ export default function Pit(props) {
                     <a alt="Juice's GitHub" href="https://github.com/Juice-Robotics" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={styles.i}/></a>
                 </div>
             </section>
+{/* 
+            <section className={styles.robotInfo}>
+                <h2>Scouting us?</h2>
+                <p>Just read all of this and if yall still have other info you need just find us :)</p>
+                <ul>
+                    <li>Consistent 1+5+Park</li>
+                    <li>Consistent 1+5 Substation</li>
+                    <li>Fast Ownership</li>
+                    <li></li>
+                </ul>
+            </section> */}
         </main>
         <Footer dark={dark} />
     </div>

@@ -53,13 +53,14 @@
 
 @media screen and (max-width:668px) {
     .hero h1 {
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 0;
     }
     
     .hero h1:last-of-type {
         color: #FF9626;
-        font-size: 75px;
+        font-size: 130px;
+        line-height: 130px;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -67,7 +68,7 @@
     
     .hero p {
         font-family: 'Revival Modern';
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -181,3 +182,14 @@
         margin-right: 6vw;
     }
   }
+
+.robotInfo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.robotInfo h2 {
+    font-size: 40px;
+    color: #FF9626;
+    text-transform: uppercase;
+}
