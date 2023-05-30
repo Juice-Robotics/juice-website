@@ -42,15 +42,15 @@ export default function SponsorsBrief(props) {
             <section className={styles.statsSection}>
                 <h2>Why Juice?</h2>
                 <div className={styles.statsSectionStats}>
-                    <StatsCard number={10} prefix="" suffix="+" description="awards won" />
+                    <StatsCard number={15} prefix="" suffix="+" description="awards won" />
                     <StatsCard number={5000} prefix="$" suffix="+" description="fundraised" citation="1" />
                     <StatsCard number={3700} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="2" />
                     <StatsCard number={10} prefix="" suffix="+ countries impacted" description="through the Juice Outreach Program" citation="2" />
-                    <StatsCard number={21} prefix="Ranked #" suffix="" description="in the world" citation="3" />
+                    <StatsCard number={9} prefix="Ranked #" suffix="" description="in the world" citation="3" />
                 </div>
                 <small><sup>1</sup> 2022-23 Juice Financials  </small>
                 <small>  <sup>2</sup> Internal Data</small>
-                <small>  <sup>3</sup> Feburary 2023 FIRST Updates Now Top 25</small>
+                <small>  <sup>3</sup> FTCStats.org 2023 Offensive Power Ranking (OPR)</small>
             </section>
 
             <section className={styles.info}>
