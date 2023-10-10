@@ -257,6 +257,15 @@
     font-size: 25px;
   }
 
+  .contact p span {
+    font-weight: bold;
+    /* color: #FF9626; */
+  }
+
+  .contact p span span {
+    color: #FF9626;
+  }
+
   .error {
     border-color: #ff5740;
     border-style: dashed;

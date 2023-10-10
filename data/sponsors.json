@@ -7,13 +7,13 @@
     },
     {
         "name": "Micron",
-        "logo": "https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066",
+        "logo": "https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo-white-rgb2000-2000.png?rev=5b1def7213164bc0ad47b57fc1cbdcb4",
         "website": "https://www.micron.com/",
         "logoStyle": "white"
     },
     {
         "name": "Aerojet Rocketdyne",
-        "logo": "https://aerojetrocketdyne.com/sites/default/files/AR%20Logo_RGB.png",
+        "logo": "/assets/sponsors/aerojet-roketdyne.png",
         "website": "https://aerojetrocketdyne.com/",
         "logoStyle": "white"
     },
@@ -37,13 +37,13 @@
     },
     {
         "name": "Powdercraft Rocklin",
-        "logo": "/assets/powder-craft-logo.png",
+        "logo": "/assets/sponsors/powder-craft-logo.png",
         "website": "http://www.powdercraftofrocklin.com/",
         "logoStyle": "hal"
     },
     {
         "name": "CNC Madness",
-        "logo": "/assets/cnc-madness.png",
+        "logo": "/assets/sponsors/cnc-madness.png",
         "website": "https://cncmadness.com/",
         "logoStyle": "white"
     },

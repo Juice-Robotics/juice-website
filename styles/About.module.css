@@ -97,7 +97,7 @@
 }
 
 .aboutFTCGame .titleGameBanner {
-    min-height: 40vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,15 +106,15 @@
 
 .aboutFTCGame .titleGameBanner .bgImg {
     background-color: black;
-    background-image: url("https://www.firstinspires.org/sites/default/files/first-energize/energize-season-banner-gs.png");
+    background-image: url("/assets/FIRST IN SHOW_CENTERSTAGE Banner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -webkit-filter: brightness(0.1);
-    -moz-filter: brightness(0.1);
-    -o-filter: brightness(0.1);
-    -ms-filter: brightness(0.1);
-    filter: brightness(0.1);
+    -webkit-filter: brightness(0.15);
+    -moz-filter: brightness(0.15);
+    -o-filter: brightness(0.15);
+    -ms-filter: brightness(0.15);
+    filter: brightness(0.15);
     width: 100vw;
     height: 100%;
     position: absolute;
@@ -124,6 +124,7 @@
 
 .aboutFTCGame .titleGameBanner h1 {
     z-index: 1;
+    font-size: 80px;
 }
 
 .aboutFTCGame p {
@@ -131,4 +132,13 @@
     width: 70vw;
     align-self: center;
     font-size: 20px;
+}
+
+.main a {
+    color: #FF9626;
+    transition: all 500ms;
+}
+
+.main a:hover {
+    color: #9c9c9c;
 }

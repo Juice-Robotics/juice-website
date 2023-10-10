@@ -27,3 +27,34 @@ a {
          url("/assets/fonts/Revival-Modern.woff") format("woff"), /* Modern Browsers */
          url("/assets/fonts/Revival-Modern.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
+
+
+::selection {
+  background: #FF9626;
+  color: black;
+}
+
+::-moz-selection {
+  background: #FF9626;
+  color: black;
+}
+
+.selectContrast h2::selection, 
+.selectContrast h3::selection, 
+.selectContrast p::selection,
+.selectContrast span::selection,
+.selectContrast small::selection,
+.selectContrast sup::selection {
+  background: black;
+  color: #FF9626;
+}
+
+.selectContrast h2::-moz-selection,
+.selectContrast h3::-moz-selection
+.selectContrast p::-moz-selection
+.selectContrast span::-moz-selection
+.selectContrast small::-moz-selection
+.selectContrast sup::-moz-selection {
+  background: black;
+  color: #FF9626;
+}

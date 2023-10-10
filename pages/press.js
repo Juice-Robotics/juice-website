@@ -41,12 +41,12 @@ export default function SponsorsBrief(props) {
                 <a href="http://www.inductiveautomation.com/" target="_blank" rel="noreferrer"><img alt="Inductive Automation Logo" src="https://inductiveautomation.com/static/images/logos/inductive-automation-logo.png" /></a>
             </div> */}
 
-            <section className={styles.statsSection}>
+            <section className={styles.statsSection + " selectContrast"}>
                 <h2>Some Juicy Numbers</h2>
                 <div className={styles.statsSectionStats}>
                     <StatsCard number={15} prefix="" suffix="+" description="awards won" />
-                    {/* <StatsCard number={5000} prefix="$" suffix="+" description="fundraised" citation="1" /> */}
-                    <StatsCard number={3700} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
+                    <StatsCard number={20} prefix="" suffix="+" description="matches won this season" citation="" />
+                    <StatsCard number={5000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={10} prefix="" suffix="+ countries impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={9} prefix="Rank #" suffix="" description="in the world" citation="2" />
                 </div>
@@ -59,7 +59,7 @@ export default function SponsorsBrief(props) {
                 <ul>
                     <li>Founded in <span>2019</span></li>
                     <li>Based in <span>Folsom, CA</span></li>
-                    <li>Initiative of <span>Slient Bot Deadly 501(c)3</span></li>
+                    <li>Initiative of <span>Silent Bot Deadly 501(c)3</span></li>
                     <li><span>6</span> members, 9<sup>th</sup> - 10<sup>th</sup> grade</li>
                 </ul>
 
@@ -69,7 +69,7 @@ export default function SponsorsBrief(props) {
                 <p>Team Juice’s mission is to promote interest in the field of STEM in our community through competing in the FIRST Tech Challenge and providing multiple outreach events/opportunities to the community around us.</p>
 
                 <h3 style={{ color: "#FF9626" }}>TEAM JUICE BIO</h3>
-                <p>Team Juice 16236 is an award-winning competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of five high school students. Team Juice competes in the FIRST® Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+                <p>Team Juice 16236 is an award-winning competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school and middle school students. Team Juice competes in the FIRST® Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
             </section>
 
             <section className={styles.financials}>

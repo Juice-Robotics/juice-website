@@ -77,17 +77,17 @@ export default function Home(props) {
             </picture>
             <picture>
               <source
-                srcSet={require("../public/assets/robot-hat.jpg?webp")}
+                srcSet={require("../public/assets/worlds-bot.png?webp")}
                 type="image/webp"
                 // width="181"
                 alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'
               />
-              <img src={"/assets/robot-hat.jpg"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
+              <img src={"/assets/worlds-bot.png"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
             </picture>
           </div>
           <div>
             <h2>ABOUT <span style={{ color: "#FF9626" }}>TEAM JUICE</span></h2>
-            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of five high school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school and middle school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
 
             <h3 style={{ color: "#FF9626" }}>2022-23 SPONSORS</h3>
             {/* <div className={styles.sponsors}>
