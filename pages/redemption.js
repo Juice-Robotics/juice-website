@@ -28,7 +28,7 @@ export default function Redemption(props) {
           <h1 className={styles.bottomText}>REDEMPTION</h1>
         </section>
 
-            <h3 style={{ color: "#FF9626" }}>2022-23 SPONSORS</h3>
+            <h3 style={{ color: "#FF9626" }}>2023-24 SPONSORS</h3>
             <div className={styles.sponsors}>
             <a href="https://www.micron.com/" target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066"/></a>
               <a href="https://www.1517fund.com/" target="_blank" rel="noreferrer"><img alt="1517 Logo" src="https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png"/></a>

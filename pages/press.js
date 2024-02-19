@@ -73,7 +73,7 @@ export default function SponsorsBrief(props) {
             </section>
 
             <section className={styles.financials}>
-                <h2>Juice <span>2022-23 Sponsors</span></h2>
+                <h2>Juice <span>2023-24 SPONSORS</span></h2>
 
                 {/* <div className={styles.sponsors}>
                     <a href="https://www.micron.com/" className={styles.white} target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066" /></a>

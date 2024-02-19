@@ -1,7 +1,7 @@
 [
     {
-        "name": "Sac EDM & Waterjet, Inc.",
-        "logo": "https://image4.owler.com/logo/sac-edm---waterjet_owler_20220118_141150_original.png",
+        "name": "Prototek Digital Manufacturing",
+        "logo": "https://prototek.com/wp-content/uploads/2024/01/Prototek-Full-Color.webp",
         "website": "http://sacedm.com/",
         "logoStyle": "halfwhite"
     },
@@ -12,15 +12,15 @@
         "logoStyle": "white"
     },
     {
-        "name": "Aerojet Rocketdyne",
-        "logo": "/assets/sponsors/aerojet-roketdyne.png",
-        "website": "https://aerojetrocketdyne.com/",
+        "name": "Gene Haas Foundation",
+        "logo": "/assets/sponsors/GeneHaasFoundation.png",
+        "website": "https://ghaasfoundation.org/content/ghf/en/home.html",
         "logoStyle": "white"
     },
     {
-        "name": "1517 Fund",
-        "logo": "https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png",
-        "website": "https://www.1517fund.com/",
+        "name": "Axon Robotics",
+        "logo": "https://axon-robotics.com/cdn/shop/files/Axon_Logo_With_Text.png",
+        "website": "https://axon-robotics.com/",
         "logoStyle": "white"
     },
     {
@@ -48,10 +48,10 @@
         "logoStyle": "white"
     },
     {
-        "name": "The Plastics Guy",
-        "logo": "https://img1.wsimg.com/isteam/ip/1c0c8dc3-432c-4611-99c1-fdbe35b21c75/logo/b3680012-6d2b-4992-af95-9a916e9122fc.png",
-        "website": "https://theplasticsguy.com/services",
-        "logoStyle": "white"
+        "name": "MonsterBolts",
+        "logo": "/assets/sponsors/monster-bolts.png",
+        "website": "https://monsterbolts.com/",
+        "logoStyle": "hal"
     },
     {
         "name": "Misumi",
