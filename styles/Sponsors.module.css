@@ -27,10 +27,52 @@
     color: #FF9626;
 }
 
-.sponsors {
+/* .sponsors {
     margin-bottom: 5vh;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.sponsors img {
+    height: 85px;
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: all 500ms
+        -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5); 
+}
+
+.sponsors img:hover {
+    filter: grayscale(0%);
+    height: 87.5px;
+} */
+
+.sponsors .white img {
+    height: 85px;
+    margin: 10px;
+    filter:  brightness(0) invert(1);
+    transition: all 500ms
+        /* -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5);  */
+}
+
+.sponsors .white img:hover {
+    filter:  brightness(1) invert(0);
+    height: 87.5px;
+}
+
+.sponsors .halfwhite img {
+    height: 85px;
+    margin: 10px;
+    filter: grayscale(100%) brightness(0.25) invert(1);
+    transition: all 500ms
+        /* -webkit-filter: brightness(0) invert(0.5);
+ filter: brightness(0) invert(0.5);  */
+}
+
+.sponsors .halfwhite img:hover {
+    filter: grayscale(0%) brightness(1) invert(0);
+    height: 87.5px;
 }
 
 .sponsors img {

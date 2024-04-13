@@ -29,8 +29,8 @@ export default function Sponsors(props) {
               <a href="https://cncmadness.com/" target="_blank" rel="noreferrer"><img alt="CNC Madness Logo" src="/assets/cnc-madness.png"/></a>
             </div> */}
             <div className={styles.sponsors}>
-              {sponsors.map(sponsor => (
-                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} /></a>
+            {sponsors.map(sponsor => (
+                <a href={sponsor.website} className={styles[sponsor.logoStyle]} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo}/></a>
               ))}
             </div>
 

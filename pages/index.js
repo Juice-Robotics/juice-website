@@ -54,12 +54,12 @@ export default function Home(props) {
           <h1 className={styles.topText}>JUICE</h1>
           <picture>
             <source
-              srcSet={require("../public/assets/robot-trans.png?webp")}
+              srcSet={require("../public/assets/robot-trans-3.png?webp")}
               type="image/webp"
-              // width="181"
+              width="900"
               alt=""
             />
-            <img src={"/assets/robot-trans.png"} alt="Juice 16236 Logo"></img>
+            <img src={"/assets/robot-trans-3.png"} alt="Juice 16236 Logo"></img>
           </picture>
           <h1 className={styles.bottomText}>16236</h1>
         </section>
@@ -68,12 +68,12 @@ export default function Home(props) {
           <div className={styles.picColumn}>
             <picture>
               <source
-                srcSet={require("../public/assets/team/team_2022.png?webp")}
+                srcSet={require("../public/assets/team/team_2024.jpg?webp")}
                 type="image/webp"
                 // width="181"
                 alt="Team Juice (2022)"
               />
-              <img src={"/assets/team/team_2022.png"} alt="Juice 16236 2021-22"></img>
+              <img src={"/assets/team/team_2024.png"} alt="Juice 16236 2021-22"></img>
             </picture>
             <picture>
               <source
@@ -102,7 +102,7 @@ export default function Home(props) {
 
             <div className={styles.sponsors}>
               {sponsors.map(sponsor => (
-                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} /></a>
+                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""}/></a>
               ))}
             </div>
           </div>

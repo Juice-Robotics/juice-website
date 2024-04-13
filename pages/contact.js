@@ -89,7 +89,7 @@ export default function Contact(props) {
         }).then((response) => {
             if (response.ok) {
                 console.info("sending success message")
-                window.document.getElementsByClassName(styles.card)[0].innerHTML = "<h1 style=\"text-align: center;\"><span style=\"color: #fe8f00\">Thank you</span> for Contacting Me!</h1><p style=\"text-align: center;\">I will get back to you soon</p>"
+                window.document.getElementsByClassName(styles.card)[0].innerHTML = "<h1 style=\"text-align: center;\"><span style=\"color: #fe8f00\">Thank you</span> for Contacting Us!</h1><p style=\"text-align: center;\">We will get back to you soon</p>"
             } else {
                 console.error(response)
                 alert('There was an error! Try again later!' + response.statusText);
