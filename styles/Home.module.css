@@ -23,6 +23,7 @@
     position: relative;
     /* background-color:antiquewhite; */
     width: 72vw;
+    max-width: 1450px;
     align-self: center;
     margin-top: 15vh;
 }
@@ -54,6 +55,12 @@
 
     .robotStack picture img {
         width: 110%;
+    }
+    
+    .aboutSection .sponsors img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 0;
     }
 }
 
@@ -87,6 +94,15 @@
 
 .aboutSection h2 {
     margin-top: 0;
+    font-size: max(1.25vw, 24px);
+}
+
+.aboutSection p {
+    font-size: max(0.833333333333333vw, 16px);
+}
+
+.aboutSection h3 {
+    font-size: max(0.975vw, 18.72px);
 }
 
 .aboutSection .picColumn picture img {
@@ -96,10 +112,12 @@
 }
 
 .aboutSection .sponsors img:not(.grayscaleSponsor) {
-    height: 70px;
+    height: 3.6477331943720687858259510161542vw;
+    min-height: 70px;
     margin: 10px;
     /* filter: grayscale(100%); */
-    filter: brightness(0) saturate(100%) invert(23%) sepia(1%) saturate(100%) hue-rotate(0deg) brightness(86%) contrast(89%);;
+    /* filter: brightness(0) saturate(100%) invert(23%) sepia(1%) saturate(100%) hue-rotate(0deg) brightness(86%) contrast(89%);; */
+    filter:  brightness(0) invert(1);
     transition: all 500ms
     /* -webkit-filter: brightness(0) invert(0.5);
  filter: brightness(0) invert(0.5);  */
@@ -107,14 +125,18 @@
 
 .aboutSection .sponsors img:not(.grayscaleSponsor):hover {
     /* filter: grayscale(0%); */
-    filter: brightness(100%) saturate(100%) invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
-    height: 72.5px;
+    /* filter: brightness(100%) saturate(100%) invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%); */
+    filter:  brightness(1) invert(0);
+    height: 3.7780093798853569567483064095883vw;
+    min-height: 72.5px;
 }
 
 .aboutSection .sponsors .grayscaleSponsor {
-    height: 70px;
+    height: 3.6477331943720687858259510161542vw;
+    min-height: 70px;
+    max-width: 90vw;
     margin: 10px;
-    filter: grayscale(100%) brightness(45%);
+    filter: grayscale(100%) brightness(150%);
     transition: all 500ms
     /* -webkit-filter: brightness(0) invert(0.5);
  filter: brightness(0) invert(0.5);  */
@@ -122,7 +144,8 @@
 
 .aboutSection .sponsors .grayscaleSponsor:hover {
     filter: grayscale(0%) brightness(100%);
-    height: 72.5px;
+    height: 3.7780093798853569567483064095883vw;
+    min-height: 72.5px;
 }
 
 @media screen and (max-width:668px) {
@@ -134,7 +157,7 @@
     }
 
     .aboutSection .picColumn picture img {
-        width: 90vw;
+        width: 85vw;
         margin: 0;
     }
 

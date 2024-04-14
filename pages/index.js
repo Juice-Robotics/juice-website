@@ -77,12 +77,12 @@ export default function Home(props) {
             </picture>
             <picture>
               <source
-                srcSet={require("../public/assets/worlds-bot.png?webp")}
+                srcSet={require("../public/assets/fresno-bot.png?webp")}
                 type="image/webp"
                 // width="181"
                 alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'
               />
-              <img src={"/assets/worlds-bot.png"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
+              <img src={"/assets/fresno-bot.png"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
             </picture>
           </div>
           <div>

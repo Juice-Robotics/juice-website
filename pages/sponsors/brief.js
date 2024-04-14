@@ -44,7 +44,7 @@ export default function SponsorsBrief(props) {
                 <div className={styles.statsSectionStats}>
                     <StatsCard number={15} prefix="" suffix="+" description="awards won" />
                     <StatsCard number={20} prefix="" suffix="+" description="matches won this season" citation="" />
-                    <StatsCard number={5000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
+                    <StatsCard number={10000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={10} prefix="" suffix="+ countries impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={9} prefix="Ranked #" suffix="" description="in the world" citation="2" />
                 </div>

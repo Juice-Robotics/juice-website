@@ -10,7 +10,12 @@ const StatsCard = (props) => {
     const citation = props.citation
 
     return (<div className={styles.card}>
-        <h3>{prefix}<CountUp end={number} duration={1}/>{suffix}</h3>
+        <h3>{prefix}<CountUp
+            end={number}
+            duration={1}
+            separator=","
+            enableScrollSpy={true}
+            scrollSpyOnce={true} />{suffix}</h3>
         <p>{description}{citation ? <sup>{citation}</sup> : ""}</p>
     </div>)
 }
