@@ -105,7 +105,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />+ people impacted</h3>
               <p>in <bold style={{fontWeight:"700"}}>10+ countries</bold> through the Juice Outreach Program</p><br/>
-              <Link href="/outreach"><a className={styles.button} href="/outreach">LEARN MORE</a></Link>
+              <Link href="/outreach"><a className={styles.button}>LEARN MORE</a></Link>
             </div>
             <div className={styles.statsCard}>
               <h3><CountUp
@@ -115,7 +115,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />x NorCal Champions</h3>
               <p>and played in every NorCal Championship playoffs since 2019</p>
-              <Link href="/about"><a className={styles.button} href="/about">MEET THE TEAM</a></Link>
+              <Link href="/about"><a className={styles.button}>MEET THE TEAM</a></Link>
             </div>
 
             {/* <div className={styles.statsCard}>
