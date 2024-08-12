@@ -6,6 +6,7 @@ import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
 import sponsors from '../data/sponsors.json'
 import CountUp from 'react-countup';
+import Link from "next/link";
 
 export default function Home(props) {
   const dark = props.dark
@@ -73,10 +74,10 @@ export default function Home(props) {
             <div className={styles.scroller}>
               <ul className={styles.innerScroller}>
                 {sponsors.map(sponsor => (
-                  <li><a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => { x.website == sponsor.website }).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
+                  <li key={sponsors.findIndex(x => { x.website == sponsor.website }).toString()}><a href={sponsor.website} target="_blank" rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
                 ))}
                 {sponsors.map(sponsor => (
-                  <li><a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => { x.website == sponsor.website }).toString() + "2"} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
+                  <li key={sponsors.findIndex(x => { x.website == sponsor.website }).toString() + "2"}><a href={sponsor.website} target="_blank" rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
                 ))}
               </ul>
             </div>
@@ -94,7 +95,7 @@ export default function Home(props) {
             <div className={styles.statsCard}>
             <h3>Award Winning Robots</h3>
               <p>15+ awards and 50+ matches won in team history</p><br/>
-              <a className={styles.button} href="/neo">MEET THE ROBOT</a>
+              <Link href="/neo"><a className={styles.button}>MEET THE ROBOT</a></Link>
             </div>
             <div className={styles.statsCard}>
               <h3><CountUp
@@ -104,7 +105,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />+ people impacted</h3>
               <p>in <bold style={{fontWeight:"700"}}>10+ countries</bold> through the Juice Outreach Program</p><br/>
-              <a className={styles.button} href="/outreach">LEARN MORE</a>
+              <Link href="/outreach"><a className={styles.button} href="/outreach">LEARN MORE</a></Link>
             </div>
             <div className={styles.statsCard}>
               <h3><CountUp
@@ -114,7 +115,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />x NorCal Champions</h3>
               <p>and played in every NorCal Championship playoffs since 2019</p>
-              <a className={styles.button} href="/about">MEET THE TEAM</a>
+              <Link href="/about"><a className={styles.button} href="/about">MEET THE TEAM</a></Link>
             </div>
 
             {/* <div className={styles.statsCard}>
