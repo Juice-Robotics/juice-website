@@ -1,5 +1,5 @@
 .card {
-    background-color: #131313;
+    /* background-color: #131313; */
     border-radius: 25px;
     /* border-color: rgb(133, 133, 133);
     border-width: 1px;
@@ -11,6 +11,8 @@
     margin-top: 40px;
     margin-bottom: 30px;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -28,6 +30,29 @@
     transition: all 500ms;
     overflow: hidden;
     object-fit: cover;
+}
+
+.card:before {
+    border-radius: inherit;
+    display: block;
+    width: 200%;
+    height: 200%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left bottom, #000000, #020101, #050202, #070402, #080502, #0a0702, #0c0803, #0e0a03, #110c03, #140e02, #171002, #1a1102);;
+    transition: all 0.5s;
+    transform: translate(-25%, -25%);
+    z-index: 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:before {
+    transform: translate(-25%, -25%) rotate(94deg);
 }
 
 .card:hover img {
@@ -56,12 +81,15 @@
 .card h1 {
     font-weight: 400;
     font-size: 30px;
+    position: relative;
 }
 
 .card h2 {
     font-size: medium;
+    position: relative;
 }
 
 .bodyContent {
     padding: 20px;
+    position: relative;
 }

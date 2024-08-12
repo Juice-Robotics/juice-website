@@ -8,7 +8,7 @@
     },
     {
         "name": "Micron",
-        "logo": "https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo-white-rgb2000-2000.png?rev=5b1def7213164bc0ad47b57fc1cbdcb4",
+        "logo": "https://www.micron.com/content/experience-fragments/micron/us/en/site/header/master/_jcr_content/root/header_1665313514/logo.coreimg.svg/1699275530241/micron-logo-white.svg",
         "website": "https://www.micron.com/",
         "logoStyle": "white",
         "imgClass": ""
@@ -17,6 +17,13 @@
         "name": "Gene Haas Foundation",
         "logo": "/assets/sponsors/GeneHaasFoundation.png",
         "website": "https://ghaasfoundation.org/content/ghf/en/home.html",
+        "logoStyle": "white",
+        "imgClass": ""
+    },
+    {
+        "name": "Western Digital",
+        "logo": "https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/brand-logos/header-main-logo.svg",
+        "website": "https://www.westerndigital.com/",
         "logoStyle": "white",
         "imgClass": ""
     },
@@ -56,15 +63,22 @@
         "imgClass": ""
     },
     {
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1200px-Apple_logo_white.svg.png",
+        "website": "https://apple.com/",
+        "logoStyle": "white",
+        "imgClass": ""
+    },
+    {
         "name": "MonsterBolts",
         "logo": "/assets/sponsors/monster-bolts.png",
         "website": "https://monsterbolts.com/",
         "logoStyle": "hal",
-        "imgClass": ""
+        "imgClass": "grayscaleSponsor"
     },
     {
         "name": "Misumi",
-        "logo": "https://go.misumiusa.com/rs/588-OLQ-596/images/RGB_Main_Horizontal_White-RegisteredTrademark-01.png",
+        "logo": "https://www.esker.com.sg/sites/default/files/rgb_main_horizontal_white-registeredtrademark-01.png",
         "website": "https://us.misumi-ec.com/",
         "logoStyle": "halfwhite",
         "imgClass": ""

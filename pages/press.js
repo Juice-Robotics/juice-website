@@ -46,7 +46,7 @@ export default function SponsorsBrief(props) {
                 <div className={styles.statsSectionStats}>
                     <StatsCard number={15} prefix="" suffix="+" description="awards won" />
                     <StatsCard number={20} prefix="" suffix="+" description="matches won this season" citation="" />
-                    <StatsCard number={5000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
+                    <StatsCard number={10000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={10} prefix="" suffix="+ countries impacted" description="through the Juice Outreach Program" citation="1" />
                     <StatsCard number={9} prefix="Rank #" suffix="" description="in the world" citation="2" />
                 </div>
@@ -60,7 +60,7 @@ export default function SponsorsBrief(props) {
                     <li>Founded in <span>2019</span></li>
                     <li>Based in <span>Folsom, CA</span></li>
                     <li>Initiative of <span>Silent Bot Deadly 501(c)3</span></li>
-                    <li><span>6</span> members, 9<sup>th</sup> - 10<sup>th</sup> grade</li>
+                    <li><span>8</span> members, 8<sup>th</sup> - 11<sup>th</sup> grade</li>
                 </ul>
 
                 <h3 style={{ color: "#FF9626" }}>ABOUT TEAM JUICE</h3>

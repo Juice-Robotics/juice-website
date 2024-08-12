@@ -5,6 +5,7 @@ import { NextSeo } from 'next-seo';
 import NavBar from '../components/Navbar'
 import Footer from '../components/Footer'
 import sponsors from '../data/sponsors.json'
+import CountUp from 'react-countup';
 
 export default function Home(props) {
   const dark = props.dark
@@ -50,18 +51,80 @@ export default function Home(props) {
 
       <NavBar dark={dark} page="home" />
       <main className={styles.main}>
-        <section className={styles.robotStack}>
-          <h1 className={styles.topText}>JUICE</h1>
-          <picture>
-            <source
-              srcSet={require("../public/assets/robot-trans-3.png?webp")}
-              type="image/webp"
-              width="900"
-              alt=""
-            />
-            <img src={"/assets/robot-trans-3.png"} alt="Juice 16236 Logo"></img>
-          </picture>
-          <h1 className={styles.bottomText}>16236</h1>
+        <div className={styles.dots}>
+          <section className={styles.robotStack}>
+            <h1 className={styles.topText}>JUICE</h1>
+            <picture>
+              <source
+                srcSet={require("../public/assets/robot-trans-3.png?webp")}
+                type="image/webp"
+                width="900"
+                alt=""
+              />
+              <img src={"/assets/robot-trans-3.png"} alt="Juice 16236 Logo"></img>
+            </picture>
+            <h1 className={styles.bottomText}>16236</h1>
+          </section>
+        </div>
+
+        <section className={styles.miniStats}>
+          <div className={styles.smolSponsorsSection}>
+            <p>SPONSORED BY</p>
+            <div className={styles.scroller}>
+              <ul className={styles.innerScroller}>
+                {sponsors.map(sponsor => (
+                  <li><a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => { x.website == sponsor.website }).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
+                ))}
+                {sponsors.map(sponsor => (
+                  <li><a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => { x.website == sponsor.website }).toString() + "2"} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <h2>Ranked <span style={{color:"#FF9626"}}>#<CountUp
+                start={1}
+                end={9}
+                duration={1.5}
+                separator=","
+                enableScrollSpy={true}
+                scrollSpyOnce={true} /></span> out of 6,000+</h2>
+          <small>IN THE 2023 SEASON</small>
+          <div className={styles.statsContainer}>
+            <div className={styles.statsCard}>
+            <h3>Award Winning Robots</h3>
+              <p>15+ awards and 50+ matches won in team history</p><br/>
+              <a className={styles.button} href="/neo">MEET THE ROBOT</a>
+            </div>
+            <div className={styles.statsCard}>
+              <h3><CountUp
+                end={10000}
+                duration={1}
+                separator=","
+                enableScrollSpy={true}
+                scrollSpyOnce={true} />+ people impacted</h3>
+              <p>in <bold style={{fontWeight:"700"}}>10+ countries</bold> through the Juice Outreach Program</p><br/>
+              <a className={styles.button} href="/outreach">LEARN MORE</a>
+            </div>
+            <div className={styles.statsCard}>
+              <h3><CountUp
+                end={2}
+                duration={0.25}
+                separator=","
+                enableScrollSpy={true}
+                scrollSpyOnce={true} />x NorCal Champions</h3>
+              <p>and played in every NorCal Championship playoffs since 2019</p>
+              <a className={styles.button} href="/about">MEET THE TEAM</a>
+            </div>
+
+            {/* <div className={styles.statsCard}>
+              <StatsCard number={10000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
+            </div>
+            <div className={styles.statsCard}>
+              <StatsCard number={10000} prefix="" suffix="+ people impacted" description="through the Juice Outreach Program" citation="1" />
+            </div> */}
+          </div>
+
         </section>
 
         <section className={styles.aboutSection}>
@@ -77,12 +140,12 @@ export default function Home(props) {
             </picture>
             <picture>
               <source
-                srcSet={require("../public/assets/fresno-bot.png?webp")}
+                srcSet={require("../public/assets/roseville-bot.jpg?webp")}
                 type="image/webp"
                 // width="181"
                 alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'
               />
-              <img src={"/assets/fresno-bot.png"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
+              <img src={"/assets/roseville-bot.jpg"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
             </picture>
           </div>
           <div>
@@ -102,7 +165,7 @@ export default function Home(props) {
 
             <div className={styles.sponsors}>
               {sponsors.map(sponsor => (
-                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => {x.website == sponsor.website}).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""}/></a>
+                <a href={sponsor.website} target="_blank" key={sponsors.findIndex(x => { x.website == sponsor.website }).toString()} rel="noreferrer"><img alt={sponsor.name + " Logo"} src={sponsor.logo} className={sponsor.imgClass == "grayscaleSponsor" ? styles.grayscaleSponsor : ""} /></a>
               ))}
             </div>
           </div>

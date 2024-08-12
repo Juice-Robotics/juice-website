@@ -120,6 +120,12 @@
         display: flex;
         flex-direction: column;
     }
+
+    .aboutRow .sponsors img {
+        height: auto;
+        max-width: 80vw;
+        max-height: 6vh;
+    }
 }
 
 .aboutFTCGame {
@@ -138,7 +144,7 @@
 
 .aboutFTCGame .titleGameBanner .bgImg {
     background-color: black;
-    background-image: url("/assets/FIRST IN SHOW_CENTERSTAGE Banner.png");
+    background-image: url("/assets/first_dive_banner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

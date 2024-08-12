@@ -78,7 +78,7 @@ export default function Contact(props) {
         };
 
         // SEND
-        const webhookUrl = 'https://discord.com/api/webhooks/999066414243647618/L33fMtiiy2HweBLApXx3O4e4xwXACkW9P2Bjyp9CoUgVZ9xv_wcWodxUl9oeqvXOuBob';
+        const webhookUrl = 'https://discord.com/api/webhooks/1272091057781346438/jnrbnXTFcWmdpHuBjFlY_8qwRbD7yVzMA9c7K4B38bV1WfUNvicUX5IBML_eJqnpdAkG';
 
         fetch(webhookUrl, {
             method: 'POST',
@@ -140,7 +140,7 @@ export default function Contact(props) {
                         onChange={(e) => {
                             setFullname(e.target.value);
                         }}
-                        placeholder="Jooser Abid"
+                        // placeholder="Jooser Abid"
                         name="fullname"
                     />
 
@@ -157,7 +157,7 @@ export default function Contact(props) {
                         onChange={(e) => {
                             setEmail(e.target.value);
                         }}
-                        placeholder="jooser.abid@juicerobotics.org"
+                        // placeholder="jooser.abid@juicerobotics.org"
                     />
 
                     <input
@@ -190,7 +190,7 @@ export default function Contact(props) {
                             setSubject(e.target.value);
                         }}
                         autoComplete="off"
-                        placeholder="Proposal..."
+                        // placeholder="Proposal..."
                     />
 
                     <label
@@ -205,7 +205,7 @@ export default function Contact(props) {
                             setMessage(e.target.value);
                         }}
                         maxLength={1020}
-                        placeholder="*kicks up ball*, Alliance? -Abid"
+                        // placeholder="*kicks up ball*, Alliance? -Abid"
                     ></textarea>
 
                     <p className={styles.learnWhy} style={{ fontSize: 14 }}>Maximum 1020 characters, Markdown Enabled.

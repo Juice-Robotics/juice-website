@@ -20,20 +20,26 @@
 }
 
 .main h1 {
-    font-size: 3em;
+    font-size: 5em;
+    margin-bottom: 0;
 }
 
 .main h1 span {
     color: #FF9626;
 }
 
-/* .sponsors {
-    margin-bottom: 5vh;
+.main p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.sponsors {
+    margin-bottom: 10vh;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.sponsors img {
+/* .sponsors img {
     height: 85px;
     margin: 10px;
     filter: grayscale(100%);
@@ -90,10 +96,30 @@
 }
 
 @media screen and (max-width:668px) {
+    .main h1 {
+        font-size: 3em;
+    }
+
+    .main p {
+        font-size: 1.25em;
+    }
+    
     .sponsors {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        margin-bottom: 0vh;
+    }
+
+    .sponsors img {
+        height: auto;
+        max-width: 85vw;
+        max-height: 8vh;
+        margin-bottom: 3vh;
+    }
+
+    .main {
+        padding: 10px;
     }
 }
 
