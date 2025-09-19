@@ -59,7 +59,7 @@ export default function SponsorsBrief(props) {
                     <li>Founded in <span>2019</span></li>
                     <li>Based in <span>Folsom, CA</span></li>
                     <li>Initiative of <span>Silent Bot Deadly 501(c)3</span></li>
-                    <li><span>8</span> members, 8<sup>th</sup> - 11<sup>th</sup> grade</li>
+                    <li><span>10</span> members, 8<sup>th</sup> - 12<sup>th</sup> grade</li>
                 </ul>
             </section>
 
@@ -84,7 +84,7 @@ export default function SponsorsBrief(props) {
                     <p>Email us at <a href="mailto:ftcteam16236@gmail.com">ftcteam16236@gmail.com</a> for these documents.</p>
                 </div> */}
 
-                <h2 style={{ color: "#FF9626" }}>2023-24 SPONSORS</h2>
+                <h2 style={{ color: "#FF9626" }}>2024-25 SPONSORS</h2>
                 {/* <div className={styles.sponsors}>
                     <a href="https://www.micron.com/" className={styles.white} target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066" /></a>
                     <a href="https://www.1517fund.com/" className={styles.white} target="_blank" rel="noreferrer"><img alt="1517 Logo" src="https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png" /></a>

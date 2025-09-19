@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import sponsors from '../data/sponsors.json'
 import CountUp from 'react-countup';
 import Link from "next/link";
+import copypasta from '../data/copypasta.json'
 
 export default function Home(props) {
   const dark = props.dark
@@ -34,8 +35,8 @@ export default function Home(props) {
               type: 'image/png',
             },
             {
-              url: 'https://media.discordapp.net/attachments/884550121503752222/947384156403417088/Full_robot_v2_arm_up_2022-Feb-27_06-37-45AM-000_CustomizedView6366346004_jpg.jpeg',
-              alt: 'Juice 16236 Freight Frenzy Robot v2',
+              url: 'https://juicerobotics.org/_next/static/images/roseville-bot-06f35766e1f5fa17f99db81fc713c278.jpg.webp',
+              alt: 'Juice 16236 CENTERSTAGE Robot',
               type: 'image/jpeg',
             },
           ],
@@ -83,18 +84,24 @@ export default function Home(props) {
             </div>
           </div>
 
-          <h2>Ranked <span style={{color:"#FF9626"}}>#<CountUp
-                start={1}
-                end={9}
-                duration={1.5}
-                separator=","
-                enableScrollSpy={true}
-                scrollSpyOnce={true} /></span> out of 6,000+</h2>
+          <h2>Ranked <span style={{ color: "#FF9626" }}>#9
+            {/* <CountUp
+            start={1929}
+            end={9}
+            duration={1}
+            useEasing={true}
+            easingFn={(t, b, c, d) => {
+              return (t==d) ? b+c : c * (-Math.pow(2, -2 * t/d) + 1) + b;
+            }}
+            // separator=","
+            enableScrollSpy={true}
+            scrollSpyOnce={true} /> */}
+            </span> out of 6,000+</h2>
           <small>IN THE 2023 SEASON</small>
           <div className={styles.statsContainer}>
             <div className={styles.statsCard}>
-            <h3>Award Winning Robots</h3>
-              <p>15+ awards and 50+ matches won in team history</p><br/>
+              <h3>Award Winning Robots</h3>
+              <p>15+ awards and 50+ matches won in team history</p><br />
               <Link href="/neo"><a className={styles.button}>MEET THE ROBOT</a></Link>
             </div>
             <div className={styles.statsCard}>
@@ -104,17 +111,19 @@ export default function Home(props) {
                 separator=","
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />+ people impacted</h3>
-              <p>in <bold style={{fontWeight:"700"}}>10+ countries</bold> through the Juice Outreach Program</p><br/>
+              <p>in <bold style={{ fontWeight: "700" }}>10+ countries</bold> through the Juice Outreach Program</p><br />
               <Link href="/outreach"><a className={styles.button}>LEARN MORE</a></Link>
             </div>
             <div className={styles.statsCard}>
-              <h3><CountUp
-                end={2}
-                duration={0.25}
-                separator=","
-                enableScrollSpy={true}
-                scrollSpyOnce={true} />x NorCal Champions</h3>
-              <p>and played in every NorCal Championship playoffs since 2019</p>
+              <div>
+                <h3><CountUp
+                  end={2}
+                  duration={0.25}
+                  separator=","
+                  enableScrollSpy={true}
+                  scrollSpyOnce={true} />x NorCal Champions</h3>
+                <p>and played in every NorCal Championship playoffs since 2019</p>
+              </div>
               <Link href="/about"><a className={styles.button}>MEET THE TEAM</a></Link>
             </div>
 
@@ -132,28 +141,28 @@ export default function Home(props) {
           <div className={styles.picColumn}>
             <picture>
               <source
-                srcSet={require("../public/assets/team/team_2024.jpg?webp")}
+                srcSet={require("../public/assets/team/team_2025.jpg?webp")}
                 type="image/webp"
                 // width="181"
                 alt="Team Juice (2022)"
               />
-              <img src={"/assets/team/team_2024.png"} alt="Juice 16236 2021-22"></img>
+              <img src={"/assets/team/team_2025.png"} alt="Juice 16236 2021-22"></img>
             </picture>
             <picture>
               <source
-                srcSet={require("../public/assets/roseville-bot.jpg?webp")}
+                srcSet={require("../public/assets/folsom-bot.jpg?webp")}
                 type="image/webp"
                 // width="181"
                 alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'
               />
-              <img src={"/assets/roseville-bot.jpg"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
+              <img src={"/assets/folsom-bot.jpg"} alt='Juice 16236 Award-Winning "REDEMPTION v3" Robot'></img>
             </picture>
           </div>
           <div>
             <h2>ABOUT <span style={{ color: "#FF9626" }}>TEAM JUICE</span></h2>
-            <p>Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school and middle school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.</p>
+            <p>{copypasta.about}</p>
 
-            <h3 style={{ color: "#FF9626" }}>2023-24 SPONSORS</h3>
+            <h3 style={{ color: "#FF9626" }}>2024-25 SPONSORS</h3>
             {/* <div className={styles.sponsors}>
               <a href="https://www.micron.com/" target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066"/></a>
               <a href="https://www.1517fund.com/" target="_blank" rel="noreferrer"><img alt="1517 Logo" src="https://uploads-ssl.webflow.com/5d9cd3e9b5891d594e90e914/5e25be0eacccd1fa2c17c8d2_1517%20Logo%20Cropped.png"/></a>

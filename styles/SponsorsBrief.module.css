@@ -42,7 +42,8 @@
 
 .sponsors .white img:hover {
     filter:  brightness(1) invert(0);
-    height: 87.5px;
+    /* height: 87.5px; */
+    transform: scale(1.05);
 }
 
 .sponsors .halfwhite img {
@@ -56,7 +57,8 @@
 
 .sponsors .halfwhite img:hover {
     filter: grayscale(0%) brightness(1) invert(0);
-    height: 87.5px;
+    /* height: 87.5px; */
+    transform: scale(1.05);
 }
 
 .sponsors img {
@@ -70,7 +72,8 @@
 
 .sponsors img:hover {
     filter: grayscale(0%);
-    height: 87.5px;
+    /* height: 87.5px; */
+    transform: scale(1.05);
 }
 
 @media screen and (max-width:668px) {

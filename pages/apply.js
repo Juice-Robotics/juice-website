@@ -15,7 +15,7 @@ export default function ApplicationRedirect() {
     }, 1000);
 
     useEffect(() => {
-        // window.location.assign('https://forms.gle/kiyfLJY9Ac8uLGGQ6')
+        window.location.assign('https://forms.gle/Hi8Ug6P5ehWNzSEY7')
     })
     return (
         <div className={styles.main}>
@@ -23,7 +23,7 @@ export default function ApplicationRedirect() {
                 REDIRECTING...
             </div>
             <p style={{opacity: (overtime == true ? 1.0 : 0.0)}}>
-                If it does not redirect, <a href="https://forms.gle/kiyfLJY9Ac8uLGGQ6" style={{fontWeight: "bold"}}>click here</a></p>
+                If it does not redirect, <a href="https://forms.gle/Hi8Ug6P5ehWNzSEY7" style={{fontWeight: "bold"}}>click here</a></p>
         </div>
     )
 }

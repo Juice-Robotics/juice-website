@@ -14,6 +14,13 @@
         "imgClass": ""
     },
     {
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1200px-Apple_logo_white.svg.png",
+        "website": "https://apple.com/",
+        "logoStyle": "white",
+        "imgClass": ""
+    },
+    {
         "name": "Gene Haas Foundation",
         "logo": "/assets/sponsors/GeneHaasFoundation.png",
         "website": "https://ghaasfoundation.org/content/ghf/en/home.html",
@@ -28,9 +35,9 @@
         "imgClass": ""
     },
     {
-        "name": "Axon Robotics",
-        "logo": "/assets/sponsors/Axon-Logo-With-Text-White.svg",
-        "website": "https://axon-robotics.com/",
+        "name": "CNC Madness",
+        "logo": "/assets/sponsors/cnc-madness.png",
+        "website": "https://cncmadness.com/",
         "logoStyle": "white",
         "imgClass": ""
     },
@@ -49,23 +56,30 @@
         "imgClass": ""
     },
     {
-        "name": "Powdercraft Rocklin",
-        "logo": "/assets/sponsors/powder-craft-logo.png",
-        "website": "http://www.powdercraftofrocklin.com/",
+        "name": "PG&E",
+        "logo": "/assets/sponsors/pge-light.png",
+        "website": "https://www.pge.com/en.html",
         "logoStyle": "hal",
         "imgClass": "grayscaleSponsor"
     },
     {
-        "name": "CNC Madness",
-        "logo": "/assets/sponsors/cnc-madness.png",
-        "website": "https://cncmadness.com/",
+        "name": "Dream Maker Fund",
+        "logo": "/assets/sponsors/dream-maker-fund.png",
+        "website": "https://www.facebook.com/DreamMakerInitiative/",
         "logoStyle": "white",
         "imgClass": ""
     },
     {
-        "name": "Apple",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/1200px-Apple_logo_white.svg.png",
-        "website": "https://apple.com/",
+        "name": "Powdercraft Rocklin",
+        "logo": "https://powdercraftusa.com/wp-content/uploads/2024/06/Logo_Files_RGB-1_page-0004-1.png",
+        "website": "http://www.powdercraftofrocklin.com/",
+        "logoStyle": "white",
+        "imgClass": ""
+    },
+    {
+        "name": "Axon Robotics",
+        "logo": "/assets/sponsors/Axon-Logo-With-Text-White.svg",
+        "website": "https://axon-robotics.com/",
         "logoStyle": "white",
         "imgClass": ""
     },

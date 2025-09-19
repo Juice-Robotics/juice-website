@@ -60,7 +60,7 @@ export default function SponsorsBrief(props) {
                     <li>Founded in <span>2019</span></li>
                     <li>Based in <span>Folsom, CA</span></li>
                     <li>Initiative of <span>Silent Bot Deadly 501(c)3</span></li>
-                    <li><span>8</span> members, 8<sup>th</sup> - 11<sup>th</sup> grade</li>
+                    <li><span>10</span> members, 8<sup>th</sup> - 12<sup>th</sup> grade</li>
                 </ul>
 
                 <h3 style={{ color: "#FF9626" }}>ABOUT TEAM JUICE</h3>
@@ -73,7 +73,7 @@ export default function SponsorsBrief(props) {
             </section>
 
             <section className={styles.financials}>
-                <h2>Juice <span>2023-24 SPONSORS</span></h2>
+                <h2>Juice <span>2024-25 SPONSORS</span></h2>
 
                 {/* <div className={styles.sponsors}>
                     <a href="https://www.micron.com/" className={styles.white} target="_blank" rel="noreferrer"><img alt="Micron Logo" src="https://media-www.micron.com/-/media/client/global/images/image-gallery/micron-logos/micron-logo_blue_rgb.png?mh=130&mw=215&rev=0b9311bd21024a0aa43d029537692066" /></a>
@@ -105,7 +105,7 @@ export default function SponsorsBrief(props) {
             </section>
 
             <section className={styles.financials}>
-                <h2>Juice-<span>Press Releases</span></h2>
+                <h2><i>Juice-</i><span><i>Press</i> Releases</span></h2>
                 <div className={styles.pressReleases}>
                     <PressReleaseCard title="Folsom-based Robotics Team Qualifies for World Championship" date="March 14, 2023" thumbnail="\assets\team\team pic.jpg" redirect="\assets\press-releases\Juice_Worlds_2023_Press_Release.pdf" />
                 </div>

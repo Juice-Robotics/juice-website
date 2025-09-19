@@ -22,7 +22,7 @@
     display: flex;
     position: relative;
     /* background-color:antiquewhite; */
-    width: 72vw;
+    width: 92vw;
     height: 55vh;
     max-width: 1450px;
     align-self: center;
@@ -247,7 +247,7 @@
 }
 
 .smolSponsorsSection ul img.grayscaleSponsor {
-    filter: grayscale(1) brightness(0.55);
+    filter: grayscale(1) brightness(0.3);
 }
 
 .smolSponsorsSection ul img:not(.grayscaleSponsor):hover {
@@ -255,7 +255,7 @@
 }
 
 .smolSponsorsSection ul img.grayscaleSponsor:hover {
-    filter: grayscale(1) brightness(0.95);
+    filter: grayscale(1) brightness(0.55);
 }
 
 

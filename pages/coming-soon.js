@@ -63,8 +63,8 @@ export default function Home() {
             type: 'image/png',
           },
           {
-            url: 'https://media.discordapp.net/attachments/884550121503752222/947384156403417088/Full_robot_v2_arm_up_2022-Feb-27_06-37-45AM-000_CustomizedView6366346004_jpg.jpeg',
-            alt: 'Juice 16236 Freight Frenzy Robot v2',
+            url: 'https://juicerobotics.org/_next/static/images/roseville-bot-06f35766e1f5fa17f99db81fc713c278.jpg.webp',
+            alt: 'Juice 16236 CENTERSTAGE Robot',
             type: 'image/jpeg',
           },
         ],

@@ -8,6 +8,8 @@ const MemberBlock = (props) => {
     const headshot = props.headshot
     const headshotOptions = props.headshotOptions
 
+    const headshotAbsPath = '..\\public' + headshot + '?webp'
+
     return (
         <div className={side == "LEFT" ? styles.left : styles.right}>
             <div className={styles.text}>
@@ -17,6 +19,16 @@ const MemberBlock = (props) => {
             </div>
             <div className={styles.headshotContainer}>
                 <img src={headshot} style={headshotOptions}></img>
+                {/* <picture>
+                            <source
+                                srcSet={require(headshotAbsPath)}
+                                type="image/webp"
+                                // width="181"
+                                alt={name + " Headshot Picture"}
+                                style={headshotOptions}
+                            />
+                            <img src={headshot} alt={name + " Headshot Picture"} style={headshotOptions}></img>
+                        </picture> */}
             </div>
         </div>
         )

@@ -1,6 +1,6 @@
 export default {
     title: "Juice 16236",
-    description: "Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school and middle school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a 501(c)(3) Non-Profit.",
+    description: "{copypasta.about}",
     canonical: "https://juicerobotics.org/",
     openGraph: {
         url: 'https://juicerobotics.org',
@@ -15,8 +15,8 @@ export default {
                 type: 'image/png',
             },
             {
-                url: 'https://media.discordapp.net/attachments/884550121503752222/947384156403417088/Full_robot_v2_arm_up_2022-Feb-27_06-37-45AM-000_CustomizedView6366346004_jpg.jpeg',
-                alt: 'Juice 16236 Freight Frenzy Robot v2',
+                url: 'https://juicerobotics.org/_next/static/images/roseville-bot-06f35766e1f5fa17f99db81fc713c278.jpg.webp',
+                alt: 'Juice 16236 CENTERSTAGE Robot',
                 type: 'image/jpeg',
             },
         ],

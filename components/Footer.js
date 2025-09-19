@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from '../styles/Footer.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import copypasta from '../data/copypasta.json'
 // import the icons you need
 import {
     faYoutube,
@@ -57,7 +58,7 @@ const NavBar = (props) => {
             <div className={styles.footerRight}>
                 <p className={styles.footerCompanyAbout}>
                     <span>ABOUT TEAM JUICE 16236</span>
-                    Team Juice 16236 is a competitive robotics team in Folsom, CA. Founded in 2019, our team comprises of eight high school and middle school students. Team Juice competes in the FIRST Tech Challenge (FTC), an international robotics competition open to grades 7-12. We are an official initiative under Silent Bot Deadly which is a  501(c)(3) Non-Profit.</p>
+                    {copypasta.about}</p>
                 <div className={styles.footerIcons}>
                     <a alt="Juice's YouTube Channel" href="https://www.youtube.com/channel/UCDixouMNi5Kr-GYOzkJOmjg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} className={styles.i}/></a>
                     <a alt="Juice's Instagram" href="https://www.instagram.com/team_16236/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.i}/></a>
