@@ -59,7 +59,7 @@ export default function SponsorsBrief(props) {
                     <li>Founded in <span>2019</span></li>
                     <li>Based in <span>Folsom, CA</span></li>
                     <li>Initiative of <span>Silent Bot Deadly 501(c)3</span></li>
-                    <li><span>10</span> members, 8<sup>th</sup> - 12<sup>th</sup> grade</li>
+                    <li><span>15</span> members, 8<sup>th</sup> - 12<sup>th</sup> grade</li>
                 </ul>
             </section>
 

@@ -67,9 +67,9 @@ export default function About(props) {
                     such as Android Studio and Autodesk Inventor, which they can later apply in the engineering workforce. 
                     <a href="https://firstinspires.org/" target="_blank" rel="noreferrer"> Learn more about <i>FIRST</i>® and FTC here.</a>
                     <br /><br /> 
-                    During the 2024-2025 <i>FIRST</i> season, <i>FIRST</i>® DIVE<sup>SM</sup> presented by Qualcomm, teams will use their STEM and collaboration skills to explore life beneath 
-                    the surface of the ocean. In the INTO THE DEEP<sup>SM</sup> presented by RTX challenge, launching September 7, 2024, <i>FIRST</i> Tech Challenge teams will dive their robots 
-                    into the depths of the ocean to explore the unknown and reveal its wonders. <a href="https://info.firstinspires.org/first-in-show" target="_blank" rel="noreferrer">Learn more about INTO THE DEEP<sup>SM</sup> and <i>FIRST</i>® DIVE<sup>SM</sup> here.</a></p>
+                    During the 2025-2026 <i>FIRST</i> season, <i>FIRST</i>® AGE<sup>SM</sup> presented by Qualcomm, Every artifact we uncover holds a story. Each tool, each innovation,
+                    each work of art connects us to the people and ideas that came before us. Using STEM skills and teamwork, today we can dig deeper into discoveries than ever before. In the DECODE<sup>SM</sup> presented by RTX challenge, launching September 6, 2025, <i>FIRST</i> Tech Challenge teams will
+                    investigate the power of the world’s artifacts and unlock mysteries <a href="https://info.firstinspires.org/first-age" target="_blank" rel="noreferrer">Learn more about DECODE<sup>SM</sup> and <i>FIRST</i>® AGE<sup>SM</sup> here.</a></p>
             </section>
 
             <section>
