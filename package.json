@@ -5,10 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && type nul > out/.nojekyll && echo juicerobotics.org > out/CNAME && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "yarn build && mkdir -p out && touch out/.nojekyll && echo juicerobotics.org > out/CNAME && git add out && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
