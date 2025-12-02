@@ -279,14 +279,20 @@
 .miniStats .statsContainer {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 60px auto 0;
+    padding: 0 2rem;
     flex-direction: row;
-    gap: 4rem;
-    margin-top: 60px;
 }
 
 .miniStats .statsContainer .statsCard {
-    width: 15vw;
+    flex: 1 1 0;
+    min-width: 280px;
+    max-width: 360px;
     padding: 20px;
     outline: 2px solid rgba(255, 153, 0, 0.171);
     color: white;
@@ -294,8 +300,8 @@
     transition: all 250ms;
     position: relative;
     overflow: hidden;
-    /* background-image: linear-gradient(to left bottom, #000000, #050202, #090403, #0d0604, #100904, #120b04, #130c03, #140e03, #150f03, #160f02, #171002, #181002); */
-    /* background-image: linear-gradient(to left bottom, #050505, #0b080b, #110b0d, #160e0d, #19110c, #19120b, #19120a, #181309, #161107, #140f05, #120d03, #0f0a01); */
+    display: flex;
+    flex-direction: column;
     /* background-image: linear-gradient(to left bottom, #000000, #020101, #050202, #070402, #080502, #0a0702, #0c0803, #0e0a03, #110c03, #140e02, #171002, #1a1102); */
 }
 
@@ -341,16 +347,15 @@
     border-radius: 40px;
     padding: 15px 20px;
     width: 100%;
-    margin-right: 25%;
+    margin-top: auto;
     margin-bottom: 10px;
     color: #fe8f00;
-    font-weight: 500;
+    font-weight: 700;
     transition: all 500ms;
     background-color: transparent;
     font-family: 'Poppins';
     align-self: center;
     text-align: center;
-    font-weight: bolder;
     position: relative;
 }
 
@@ -367,6 +372,8 @@
     
     .miniStats .statsContainer {
         flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
         justify-content: center;
     }
 
