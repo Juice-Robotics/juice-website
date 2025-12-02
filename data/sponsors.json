@@ -8,7 +8,7 @@
     },
     {
         "name": "Micron",
-        "logo": "https://www.micron.com/content/experience-fragments/micron/us/en/site/header/master/_jcr_content/root/header_1665313514/logo.coreimg.svg/1699275530241/micron-logo-white.svg",
+        "logo": "/assets/sponsors/Micron.png",
         "website": "https://www.micron.com/",
         "logoStyle": "white",
         "imgClass": ""

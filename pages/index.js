@@ -102,7 +102,7 @@ export default function Home(props) {
             <div className={styles.statsCard}>
               <h3>Award Winning Robots</h3>
               <p>15+ awards and 50+ matches won in team history</p><br />
-              <Link href="/neo"><a className={styles.button}>MEET THE ROBOT</a></Link>
+              <Link href="/neo" className={styles.button}>MEET THE ROBOT</Link>
             </div>
             <div className={styles.statsCard}>
               <h3><CountUp
@@ -112,7 +112,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />+ people impacted</h3>
               <p>in <bold style={{ fontWeight: "700" }}>10+ countries</bold> through the Juice Outreach Program</p><br />
-              <Link href="/outreach"><a className={styles.button}>LEARN MORE</a></Link>
+              <Link href="/outreach" className={styles.button}>LEARN MORE</Link>
             </div>
             <div className={styles.statsCard}>
               <div>
@@ -124,7 +124,7 @@ export default function Home(props) {
                   scrollSpyOnce={true} />x NorCal Champions</h3>
                 <p>and played in every NorCal Championship playoffs since 2019</p>
               </div>
-              <Link href="/about"><a className={styles.button}>MEET THE TEAM</a></Link>
+              <Link href="/about" className={styles.button}>MEET THE TEAM</Link>
             </div>
 
             {/* <div className={styles.statsCard}>
