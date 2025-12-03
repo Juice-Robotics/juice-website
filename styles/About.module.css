@@ -20,7 +20,7 @@
 }
 
 .main section h1 {
-    font-size: 3em;
+    font-size: 4.5em;
 }
 
 .main section h1 span {
@@ -39,12 +39,12 @@
     padding: 40px;
     padding-top: 0px;
     justify-content: space-between;
-    width: 70vw;
+    width: 100vw;
     align-self: center;
 }
 
 .aboutRow div {
-    margin: 20px;
+    margin: 10px;
 }
 
 .aboutRow h2 {
@@ -54,6 +54,7 @@
 .aboutRow .picColumn picture img {
     width: 30vw;
     border-radius: 5%;
+    margin-bottom: 10px;
 }
 
 /* .aboutRow .sponsors img {
@@ -181,4 +182,13 @@
 
 .main a:hover {
     color: #9c9c9c;
+}
+
+.hText {
+    width: 70vw;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
 }

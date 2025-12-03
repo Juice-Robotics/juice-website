@@ -1,0 +1,48 @@
+{
+  "timeline": {
+    "2019": {
+      "events": [
+        ">- Juice is Founded",
+        "Juice is founded by Henry Tsai and Pranay Jha, two sophomores and former team captains from the Folsom High School robotics club."
+      ],
+      "image": "/assets/timeline/2019 timeline.png"
+    },
+    "2020": {
+      "events": [
+        ">- FIRST World Championship Qualifier",
+        "Juice wins as NorCal Regional Champions in its rookie season with Winning Alliance partners Kuriosity Robotics and Quixilver."
+      ],
+      "image": "/assets/timeline/2020 timeline.png"
+    },
+    "2022": {
+      "events": [
+        ">- NorCal Regional Finalist",
+        "Juice wins its first Inspire Award at a qualifying tournament and finishes in the Winning Alliance of the NorCal Gold Division."
+      ],
+      "image": "/assets/timeline/2022 timeline.png"
+    },
+    "2023": {
+      "events": [
+        ">- FIRST World Championship Division Finalist Alliance Captain",
+        ">- NorCal Regional Champions & Design Award",
+        "Juice wins its second NorCal Championship with Winning Alliance partners Kuriosity Robotics and Terrabats. They rank 5th in the Franklin Division qualifying matches with a 9-2 record and captain the fourth seeded alliance, beating the first seed alliance and competing in the division finals."
+      ],
+      "image": "/assets/timeline/2023 timeline.png"
+    },
+    "2024": {
+      "events": [
+        ">- NorCal Regional Division Finalist",
+        "Juice finishes in the Finalist Alliance of the NorCal Gold Division."
+      ],
+      "image": "/assets/timeline/2024 timeline.png"
+    },
+    "2025": {
+      "events": [
+        ">- NorCal Regional Finalist & Motivate Award",
+        ">- Maryland Tech Invitational Semifinalist Alliance Captain",
+        "Juice finishes in the Winning Alliance of the NorCal Gold Division and ranks 6th during qualifying matches at their first Maryland Tech Invitational."
+      ],
+      "image": "/assets/timeline/2025 timeline.png"
+    }
+  }
+}

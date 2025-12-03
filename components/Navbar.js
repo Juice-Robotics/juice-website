@@ -25,6 +25,7 @@ const NavBar = (props) => {
             <ul className={`${styles.navLinks}  ${navActivity ? styles.navActive : ""}`}>
                 <li className={page == "home" ? styles.active : ""}><Link href="/" >Home</Link></li>
                 <li className={page == "about" ? styles.active : ""}><Link href="/about">About</Link></li>
+                <li className={page == "history" ? styles.active : ""}><Link href="/history">History</Link></li>
                 <li className={page == "sponsors" ? styles.active : ""}><Link href="/sponsors">Sponsors</Link></li>
                 {/* <li className={page == "outreach" ? styles.onPage : ""}><Link href="/outreach">Outreach</Link></li> */}
                 <li className={page == "contact" ? styles.active : ""}><Link href="/contact">Contact</Link></li>
