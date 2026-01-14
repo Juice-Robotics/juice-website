@@ -15,7 +15,7 @@ export default function GalleryRedirect() {
     }, 1000);
 
     useEffect(() => {
-        window.location.assign('https://photos.app.goo.gl/eLMwDNt8TD3G5Mzr9')
+        window.location.assign('https://photos.app.goo.gl/xJHsmLRosoZMGfyLA')
     })
     return (
         <div className={styles.main}>
@@ -23,7 +23,7 @@ export default function GalleryRedirect() {
                 REDIRECTING...
             </div>
             <p style={{opacity: (overtime == true ? 1.0 : 0.0)}}>
-                If it does not redirect, <a href="https://photos.app.goo.gl/eLMwDNt8TD3G5Mzr9" style={{fontWeight: "bold"}}>click here</a></p>
+                If it does not redirect, <a href="https://photos.app.goo.gl/xJHsmLRosoZMGfyLA" style={{fontWeight: "bold"}}>click here</a></p>
         </div>
     )
 }
