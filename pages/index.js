@@ -141,12 +141,12 @@ export default function Home(props) {
           <div className={styles.picColumn}>
             <picture>
               <source
-                srcSet={require("../public/assets/team/team_2025.jpg?webp")}
+                srcSet={require("../public/assets/team/team_2026.jpg?webp")}
                 type="image/webp"
                 // width="181"
                 alt="Team Juice (2022)"
               />
-              <img src={"/assets/team/team_2025.png"} alt="Juice 16236 2021-22"></img>
+              <img src={"/assets/team/team_2026.jpg"} alt="Juice 16236 2021-22"></img>
             </picture>
             <picture>
               <source
