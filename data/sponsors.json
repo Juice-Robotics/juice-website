@@ -7,6 +7,13 @@
         "imgClass": ""
     },
     {
+        "name": "Google",
+        "logo": "https://white.logodownload.org/wp-content/uploads/2020/11/google-white-logo-2.png",
+        "website": "https://about.google/",
+        "logoStyle": "white",
+        "imgClass": ""
+    },
+    {
         "name": "Micron",
         "logo": "/assets/sponsors/Micron.png",
         "website": "https://www.micron.com/",
