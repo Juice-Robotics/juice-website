@@ -112,7 +112,7 @@ export default function Home(props) {
                 enableScrollSpy={true}
                 scrollSpyOnce={true} />+ people impacted</h3>
               <p>in <bold style={{ fontWeight: "700" }}>10+ countries</bold> through the Juice Outreach Program</p><br />
-              <Link href="/outreach" className={styles.button}>LEARN MORE</Link>
+              <Link href="/see" className={styles.button}>LEARN MORE</Link>
             </div>
             <div className={styles.statsCard}>
               <div>

@@ -15,7 +15,7 @@ export default function ApplicationRedirect() {
     }, 1000);
 
     useEffect(() => {
-        window.location.assign('https://forms.gle/Hi8Ug6P5ehWNzSEY7')
+        window.location.assign('https://docs.google.com/forms/d/e/1FAIpQLSdVyvWed94bM57AKbJ-8KYjn9V5WJ9K_lC3HJk_E7VYKsfFXw/viewform')
     })
     return (
         <div className={styles.main}>
@@ -23,7 +23,7 @@ export default function ApplicationRedirect() {
                 REDIRECTING...
             </div>
             <p style={{opacity: (overtime == true ? 1.0 : 0.0)}}>
-                If it does not redirect, <a href="https://forms.gle/Hi8Ug6P5ehWNzSEY7" style={{fontWeight: "bold"}}>click here</a></p>
+                If it does not redirect, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVyvWed94bM57AKbJ-8KYjn9V5WJ9K_lC3HJk_E7VYKsfFXw/viewform" style={{fontWeight: "bold"}}>click here</a></p>
         </div>
     )
 }
